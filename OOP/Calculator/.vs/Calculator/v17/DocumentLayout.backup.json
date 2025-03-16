@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\Homework\\OOP\\Calculator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1C20CA5-1517-4AC8-BEC7-AE29904D16F9}|Calculator\\Calculator.csproj|c:\\users\\user\\documents\\homework\\oop\\calculator\\calculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1C20CA5-1517-4AC8-BEC7-AE29904D16F9}|Calculator\\Calculator.csproj|solutionrelative:calculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1C20CA5-1517-4AC8-BEC7-AE29904D16F9}|Calculator\\Calculator.csproj|c:\\users\\user\\documents\\homework\\oop\\calculator\\calculator\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1C20CA5-1517-4AC8-BEC7-AE29904D16F9}|Calculator\\Calculator.csproj|solutionrelative:calculator\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1C20CA5-1517-4AC8-BEC7-AE29904D16F9}|Calculator\\Calculator.csproj|c:\\users\\user\\documents\\homework\\oop\\calculator\\calculator\\normalcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1C20CA5-1517-4AC8-BEC7-AE29904D16F9}|Calculator\\Calculator.csproj|solutionrelative:calculator\\normalcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1C20CA5-1517-4AC8-BEC7-AE29904D16F9}|Calculator\\Calculator.csproj|c:\\users\\user\\documents\\homework\\oop\\calculator\\calculator\\pair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1C20CA5-1517-4AC8-BEC7-AE29904D16F9}|Calculator\\Calculator.csproj|solutionrelative:calculator\\pair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1C20CA5-1517-4AC8-BEC7-AE29904D16F9}|Calculator\\Calculator.csproj|c:\\users\\user\\documents\\homework\\oop\\calculator\\calculator\\specialcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1C20CA5-1517-4AC8-BEC7-AE29904D16F9}|Calculator\\Calculator.csproj|solutionrelative:calculator\\specialcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SpecialCustomer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\OOP\\Calculator\\Calculator\\SpecialCustomer.cs",
+              "RelativeDocumentMoniker": "Calculator\\SpecialCustomer.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\OOP\\Calculator\\Calculator\\SpecialCustomer.cs",
+              "RelativeToolTip": "Calculator\\SpecialCustomer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T08:42:47.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NormalCustomer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\OOP\\Calculator\\Calculator\\NormalCustomer.cs",
+              "RelativeDocumentMoniker": "Calculator\\NormalCustomer.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\OOP\\Calculator\\Calculator\\NormalCustomer.cs",
+              "RelativeToolTip": "Calculator\\NormalCustomer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T08:39:05.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\OOP\\Calculator\\Calculator\\Customer.cs",
+              "RelativeDocumentMoniker": "Calculator\\Customer.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\OOP\\Calculator\\Calculator\\Customer.cs",
+              "RelativeToolTip": "Calculator\\Customer.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T08:33:23.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pair.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\OOP\\Calculator\\Calculator\\Pair.cs",
+              "RelativeDocumentMoniker": "Calculator\\Pair.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\OOP\\Calculator\\Calculator\\Pair.cs",
+              "RelativeToolTip": "Calculator\\Pair.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T08:30:50.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\OOP\\Calculator\\Calculator\\Program.cs",
+              "RelativeDocumentMoniker": "Calculator\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\OOP\\Calculator\\Calculator\\Program.cs*",
+              "RelativeToolTip": "Calculator\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T08:23:58.486Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
