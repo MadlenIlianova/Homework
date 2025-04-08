@@ -1,0 +1,235 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A53FFCF3-2365-4981-85C9-7D5CF9DF3E7A}|CarManager\\CarManager.csproj|c:\\users\\user\\documents\\homework\\orm\\carmanager\\carmanager\\data\\cardbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53FFCF3-2365-4981-85C9-7D5CF9DF3E7A}|CarManager\\CarManager.csproj|solutionrelative:carmanager\\data\\cardbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A53FFCF3-2365-4981-85C9-7D5CF9DF3E7A}|CarManager\\CarManager.csproj|c:\\users\\user\\documents\\homework\\orm\\carmanager\\carmanager\\data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53FFCF3-2365-4981-85C9-7D5CF9DF3E7A}|CarManager\\CarManager.csproj|solutionrelative:carmanager\\data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A53FFCF3-2365-4981-85C9-7D5CF9DF3E7A}|CarManager\\CarManager.csproj|c:\\users\\user\\documents\\homework\\orm\\carmanager\\carmanager\\models\\engine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53FFCF3-2365-4981-85C9-7D5CF9DF3E7A}|CarManager\\CarManager.csproj|solutionrelative:carmanager\\models\\engine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A53FFCF3-2365-4981-85C9-7D5CF9DF3E7A}|CarManager\\CarManager.csproj|c:\\users\\user\\documents\\homework\\orm\\carmanager\\carmanager\\models\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53FFCF3-2365-4981-85C9-7D5CF9DF3E7A}|CarManager\\CarManager.csproj|solutionrelative:carmanager\\models\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A53FFCF3-2365-4981-85C9-7D5CF9DF3E7A}|CarManager\\CarManager.csproj|c:\\users\\user\\documents\\homework\\orm\\carmanager\\carmanager\\models\\cars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53FFCF3-2365-4981-85C9-7D5CF9DF3E7A}|CarManager\\CarManager.csproj|solutionrelative:carmanager\\models\\cars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A53FFCF3-2365-4981-85C9-7D5CF9DF3E7A}|CarManager\\CarManager.csproj|c:\\users\\user\\documents\\homework\\orm\\carmanager\\carmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53FFCF3-2365-4981-85C9-7D5CF9DF3E7A}|CarManager\\CarManager.csproj|solutionrelative:carmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A53FFCF3-2365-4981-85C9-7D5CF9DF3E7A}|CarManager\\CarManager.csproj|c:\\users\\user\\documents\\homework\\orm\\carmanager\\carmanager\\models\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53FFCF3-2365-4981-85C9-7D5CF9DF3E7A}|CarManager\\CarManager.csproj|solutionrelative:carmanager\\models\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\Migrations\\20250401062324_Cars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CarManager\\Migrations\\20250401062324_Cars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\Migrations\\20250401062250_Cars1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CarManager\\Migrations\\20250401062250_Cars1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\Migrations\\20250401061838_Cars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CarManager\\Migrations\\20250401061838_Cars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A53FFCF3-2365-4981-85C9-7D5CF9DF3E7A}|CarManager\\CarManager.csproj|c:\\users\\user\\documents\\homework\\orm\\carmanager\\carmanager\\carmanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A53FFCF3-2365-4981-85C9-7D5CF9DF3E7A}|CarManager\\CarManager.csproj|solutionrelative:carmanager\\carmanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A53FFCF3-2365-4981-85C9-7D5CF9DF3E7A}|CarManager\\CarManager.csproj|c:\\users\\user\\documents\\homework\\orm\\carmanager\\carmanager\\migrations\\20250401065019_carsmigrationthird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53FFCF3-2365-4981-85C9-7D5CF9DF3E7A}|CarManager\\CarManager.csproj|solutionrelative:carmanager\\migrations\\20250401065019_carsmigrationthird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A53FFCF3-2365-4981-85C9-7D5CF9DF3E7A}|CarManager\\CarManager.csproj|c:\\users\\user\\documents\\homework\\orm\\carmanager\\carmanager\\migrations\\20250401064356_carmigrationsecond.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53FFCF3-2365-4981-85C9-7D5CF9DF3E7A}|CarManager\\CarManager.csproj|solutionrelative:carmanager\\migrations\\20250401064356_carmigrationsecond.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DbSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\Data\\DbSeeder.cs",
+              "RelativeDocumentMoniker": "CarManager\\Data\\DbSeeder.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\Data\\DbSeeder.cs",
+              "RelativeToolTip": "CarManager\\Data\\DbSeeder.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T06:28:35.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Base.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\Models\\Base.cs",
+              "RelativeDocumentMoniker": "CarManager\\Models\\Base.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\Models\\Base.cs",
+              "RelativeToolTip": "CarManager\\Models\\Base.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T06:26:17.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250401062324_Cars.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\Migrations\\20250401062324_Cars.cs",
+              "RelativeDocumentMoniker": "CarManager\\Migrations\\20250401062324_Cars.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\Migrations\\20250401062324_Cars.cs",
+              "RelativeToolTip": "CarManager\\Migrations\\20250401062324_Cars.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBkAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T06:23:24.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\Program.cs",
+              "RelativeDocumentMoniker": "CarManager\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\Program.cs",
+              "RelativeToolTip": "CarManager\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T05:26:01.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\Data\\CarDbContext.cs",
+              "RelativeDocumentMoniker": "CarManager\\Data\\CarDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\Data\\CarDbContext.cs",
+              "RelativeToolTip": "CarManager\\Data\\CarDbContext.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAgwEIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T05:49:07.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cars.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\Models\\Cars.cs",
+              "RelativeDocumentMoniker": "CarManager\\Models\\Cars.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\Models\\Cars.cs",
+              "RelativeToolTip": "CarManager\\Models\\Cars.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T05:28:39.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Engine.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\Models\\Engine.cs",
+              "RelativeDocumentMoniker": "CarManager\\Models\\Engine.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\Models\\Engine.cs",
+              "RelativeToolTip": "CarManager\\Models\\Engine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T05:29:13.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Model.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\Models\\Model.cs",
+              "RelativeDocumentMoniker": "CarManager\\Models\\Model.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\Models\\Model.cs",
+              "RelativeToolTip": "CarManager\\Models\\Model.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T05:28:53.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250401064356_CarMigrationSecond.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\Migrations\\20250401064356_CarMigrationSecond.cs",
+              "RelativeDocumentMoniker": "CarManager\\Migrations\\20250401064356_CarMigrationSecond.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\Migrations\\20250401064356_CarMigrationSecond.cs",
+              "RelativeToolTip": "CarManager\\Migrations\\20250401064356_CarMigrationSecond.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T06:43:56.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250401065019_CarsMigrationThird.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\Migrations\\20250401065019_CarsMigrationThird.cs",
+              "RelativeDocumentMoniker": "CarManager\\Migrations\\20250401065019_CarsMigrationThird.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\Migrations\\20250401065019_CarsMigrationThird.cs",
+              "RelativeToolTip": "CarManager\\Migrations\\20250401065019_CarsMigrationThird.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T06:50:19.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20250401062250_Cars1.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\Migrations\\20250401062250_Cars1.cs",
+              "RelativeDocumentMoniker": "CarManager\\Migrations\\20250401062250_Cars1.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\Migrations\\20250401062250_Cars1.cs",
+              "RelativeToolTip": "CarManager\\Migrations\\20250401062250_Cars1.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T06:22:50.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250401061838_Cars.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\Migrations\\20250401061838_Cars.cs",
+              "RelativeDocumentMoniker": "CarManager\\Migrations\\20250401061838_Cars.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\Migrations\\20250401061838_Cars.cs",
+              "RelativeToolTip": "CarManager\\Migrations\\20250401061838_Cars.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T06:18:38.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CarManager.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\CarManager.csproj",
+              "RelativeDocumentMoniker": "CarManager\\CarManager.csproj",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\CarManager.csproj",
+              "RelativeToolTip": "CarManager\\CarManager.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-01T05:50:37.895Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

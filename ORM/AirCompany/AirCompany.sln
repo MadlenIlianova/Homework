@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirCompany", "AirCompany\AirCompany.csproj", "{E955914A-3C7D-449D-ACC2-4586981D1754}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataContext", "DataContext\DataContext.csproj", "{B9B1D889-B9B7-4028-80CF-EFDC52BC3B5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E955914A-3C7D-449D-ACC2-4586981D1754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E955914A-3C7D-449D-ACC2-4586981D1754}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E955914A-3C7D-449D-ACC2-4586981D1754}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E955914A-3C7D-449D-ACC2-4586981D1754}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9B1D889-B9B7-4028-80CF-EFDC52BC3B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9B1D889-B9B7-4028-80CF-EFDC52BC3B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9B1D889-B9B7-4028-80CF-EFDC52BC3B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9B1D889-B9B7-4028-80CF-EFDC52BC3B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5F46BF4-132C-42DF-BB43-E00F14CF0815}
+	EndGlobalSection
+EndGlobal
