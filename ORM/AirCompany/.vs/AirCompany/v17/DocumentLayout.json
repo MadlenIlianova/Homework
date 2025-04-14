@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E955914A-3C7D-449D-ACC2-4586981D1754}|AirCompany\\AirCompany.csproj|c:\\users\\user\\documents\\homework\\orm\\aircompany\\aircompany\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E955914A-3C7D-449D-ACC2-4586981D1754}|AirCompany\\AirCompany.csproj|solutionrelative:aircompany\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B9B1D889-B9B7-4028-80CF-EFDC52BC3B5D}|DataContext\\DataContext.csproj|c:\\users\\user\\documents\\homework\\orm\\aircompany\\datacontext\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9B1D889-B9B7-4028-80CF-EFDC52BC3B5D}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E955914A-3C7D-449D-ACC2-4586981D1754}|AirCompany\\AirCompany.csproj|c:\\users\\user\\documents\\homework\\orm\\aircompany\\aircompany\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E955914A-3C7D-449D-ACC2-4586981D1754}|AirCompany\\AirCompany.csproj|solutionrelative:aircompany\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E955914A-3C7D-449D-ACC2-4586981D1754}|AirCompany\\AirCompany.csproj|c:\\users\\user\\documents\\homework\\orm\\aircompany\\aircompany\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E955914A-3C7D-449D-ACC2-4586981D1754}|AirCompany\\AirCompany.csproj|solutionrelative:aircompany\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E955914A-3C7D-449D-ACC2-4586981D1754}|AirCompany\\AirCompany.csproj|c:\\users\\user\\documents\\homework\\orm\\aircompany\\aircompany\\models\\passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -90,24 +90,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\DataContext\\Program.cs",
               "RelativeDocumentMoniker": "DataContext\\Program.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\DataContext\\Program.cs",
               "RelativeToolTip": "DataContext\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T05:57:41.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\AirCompany\\Models\\Role.cs",
               "RelativeDocumentMoniker": "AirCompany\\Models\\Role.cs",
@@ -115,11 +115,12 @@
               "RelativeToolTip": "AirCompany\\Models\\Role.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:50:09.015Z"
+              "WhenOpened": "2025-04-08T05:50:09.015Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Payroll.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\AirCompany\\Models\\Payroll.cs",
               "RelativeDocumentMoniker": "AirCompany\\Models\\Payroll.cs",
@@ -127,7 +128,8 @@
               "RelativeToolTip": "AirCompany\\Models\\Payroll.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:49:36.928Z"
+              "WhenOpened": "2025-04-08T05:49:36.928Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -139,23 +141,25 @@
               "RelativeToolTip": "AirCompany\\Models\\Passenger.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:49:04.374Z"
+              "WhenOpened": "2025-04-08T05:49:04.374Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Ticket.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\AirCompany\\Models\\Ticket.cs",
               "RelativeDocumentMoniker": "AirCompany\\Models\\Ticket.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\AirCompany\\Models\\Ticket.cs",
               "RelativeToolTip": "AirCompany\\Models\\Ticket.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA+wA4AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA8wBoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:50:44.738Z"
+              "WhenOpened": "2025-04-08T05:50:44.738Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DataSeed.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\DataContext\\DataSeed.cs",
               "RelativeDocumentMoniker": "DataContext\\DataSeed.cs",
@@ -163,11 +167,12 @@
               "RelativeToolTip": "DataContext\\DataSeed.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAuwCABAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:59:24.491Z"
+              "WhenOpened": "2025-04-08T05:59:24.491Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\DataContext\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "DataContext\\IUnitOfWork.cs",
@@ -175,11 +180,12 @@
               "RelativeToolTip": "DataContext\\IUnitOfWork.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:58:06.493Z"
+              "WhenOpened": "2025-04-08T05:58:06.493Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\DataContext\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "DataContext\\ApplicationDbContext.cs",
@@ -187,7 +193,8 @@
               "RelativeToolTip": "DataContext\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAACvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T06:03:52.261Z"
+              "WhenOpened": "2025-04-08T06:03:52.261Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -199,7 +206,8 @@
               "RelativeToolTip": "AirCompany\\Models\\FlightStatusChange.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:48:05.655Z"
+              "WhenOpened": "2025-04-08T05:48:05.655Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -211,7 +219,8 @@
               "RelativeToolTip": "AirCompany\\BaseModels\\BaseModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:38:34.434Z"
+              "WhenOpened": "2025-04-08T05:38:34.434Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -223,7 +232,8 @@
               "RelativeToolTip": "AirCompany\\BaseModels\\IBaseModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:39:18.733Z"
+              "WhenOpened": "2025-04-08T05:39:18.733Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -235,7 +245,8 @@
               "RelativeToolTip": "AirCompany\\Models\\Airplane.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:40:37.133Z"
+              "WhenOpened": "2025-04-08T05:40:37.133Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -247,7 +258,8 @@
               "RelativeToolTip": "AirCompany\\Models\\Airport.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:41:36.052Z"
+              "WhenOpened": "2025-04-08T05:41:36.052Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -259,7 +271,8 @@
               "RelativeToolTip": "AirCompany\\Models\\City.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:42:15.989Z"
+              "WhenOpened": "2025-04-08T05:42:15.989Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -271,7 +284,8 @@
               "RelativeToolTip": "AirCompany\\Models\\Continent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:43:50.832Z"
+              "WhenOpened": "2025-04-08T05:43:50.832Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -283,7 +297,8 @@
               "RelativeToolTip": "AirCompany\\Models\\Country.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:44:42.937Z"
+              "WhenOpened": "2025-04-08T05:44:42.937Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -295,7 +310,8 @@
               "RelativeToolTip": "AirCompany\\Models\\Crew.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:45:18.53Z"
+              "WhenOpened": "2025-04-08T05:45:18.53Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -307,7 +323,8 @@
               "RelativeToolTip": "AirCompany\\Models\\Flight.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:46:48.951Z"
+              "WhenOpened": "2025-04-08T05:46:48.951Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -319,7 +336,8 @@
               "RelativeToolTip": "AirCompany\\Models\\FlightStatus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:47:27.955Z"
+              "WhenOpened": "2025-04-08T05:47:27.955Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -331,7 +349,8 @@
               "RelativeToolTip": "AirCompany\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:37:02.13Z"
+              "WhenOpened": "2025-04-08T05:37:02.13Z",
+              "EditorCaption": ""
             }
           ]
         }

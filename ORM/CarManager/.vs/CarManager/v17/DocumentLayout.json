@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A53FFCF3-2365-4981-85C9-7D5CF9DF3E7A}|CarManager\\CarManager.csproj|c:\\users\\user\\documents\\homework\\orm\\carmanager\\carmanager\\data\\cardbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A53FFCF3-2365-4981-85C9-7D5CF9DF3E7A}|CarManager\\CarManager.csproj|solutionrelative:carmanager\\data\\cardbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A53FFCF3-2365-4981-85C9-7D5CF9DF3E7A}|CarManager\\CarManager.csproj|c:\\users\\user\\documents\\homework\\orm\\carmanager\\carmanager\\data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A53FFCF3-2365-4981-85C9-7D5CF9DF3E7A}|CarManager\\CarManager.csproj|solutionrelative:carmanager\\data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A53FFCF3-2365-4981-85C9-7D5CF9DF3E7A}|CarManager\\CarManager.csproj|c:\\users\\user\\documents\\homework\\orm\\carmanager\\carmanager\\data\\cardbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53FFCF3-2365-4981-85C9-7D5CF9DF3E7A}|CarManager\\CarManager.csproj|solutionrelative:carmanager\\data\\cardbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A53FFCF3-2365-4981-85C9-7D5CF9DF3E7A}|CarManager\\CarManager.csproj|c:\\users\\user\\documents\\homework\\orm\\carmanager\\carmanager\\models\\engine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,17 +62,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "DbSeeder.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\Data\\DbSeeder.cs",
               "RelativeDocumentMoniker": "CarManager\\Data\\DbSeeder.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\Data\\DbSeeder.cs",
               "RelativeToolTip": "CarManager\\Data\\DbSeeder.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAACMAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCMAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-01T06:28:35.378Z",
               "EditorCaption": ""
@@ -87,8 +87,7 @@
               "RelativeToolTip": "CarManager\\Models\\Base.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T06:26:17.352Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T06:26:17.352Z"
             },
             {
               "$type": "Document",
@@ -112,18 +111,17 @@
               "RelativeToolTip": "CarManager\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T05:26:01.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T05:26:01.191Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CarDbContext.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\Data\\CarDbContext.cs",
               "RelativeDocumentMoniker": "CarManager\\Data\\CarDbContext.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\CarManager\\CarManager\\Data\\CarDbContext.cs",
               "RelativeToolTip": "CarManager\\Data\\CarDbContext.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAgwEIAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-01T05:49:07.297Z",
               "EditorCaption": ""
@@ -138,8 +136,7 @@
               "RelativeToolTip": "CarManager\\Models\\Cars.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T05:28:39.371Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T05:28:39.371Z"
             },
             {
               "$type": "Document",
@@ -151,8 +148,7 @@
               "RelativeToolTip": "CarManager\\Models\\Engine.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T05:29:13.537Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T05:29:13.537Z"
             },
             {
               "$type": "Document",
@@ -164,8 +160,7 @@
               "RelativeToolTip": "CarManager\\Models\\Model.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T05:28:53.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T05:28:53.922Z"
             },
             {
               "$type": "Document",
