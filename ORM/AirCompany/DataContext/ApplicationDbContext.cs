@@ -28,12 +28,15 @@ namespace DataContext
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer("Server=DESKTOP-8BCOFKO\\SQLEXPRESS;Initial Catalog =AirCompany;Integrated Security=True;TrustServerCertificate=True;Pooling=False;"); 
+            //base.OnConfiguring(optionsBuilder);
+            optionsBuilder.UseSqlServer("Server=DESKTOP-8BCOFKO\\SQLEXPRESS;Initial Catalog = Air;Integrated Security=True;TrustServerCertificate=True;Pooling=False;"); 
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
+            modelBuilder.Entity<Payroll>()
+            .HasOne(p => p.Ticket)
+            .WithOne(t => t.Payroll)
+            .HasForeignKey<Ticket>(t => t.PayrollId);
 
             DataSeed.ExampleSeed(modelBuilder);
             base.OnModelCreating(modelBuilder);

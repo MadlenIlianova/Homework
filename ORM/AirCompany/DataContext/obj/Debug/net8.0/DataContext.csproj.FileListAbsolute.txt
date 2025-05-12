@@ -1,0 +1,6 @@
+C:\Users\User\Documents\Homework\ORM\AirCompany\DataContext\obj\Debug\net8.0\DataContext.csproj.AssemblyReference.cache
+C:\Users\User\Documents\Homework\ORM\AirCompany\DataContext\obj\Debug\net8.0\DataContext.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\Homework\ORM\AirCompany\DataContext\obj\Debug\net8.0\DataContext.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Homework\ORM\AirCompany\DataContext\obj\Debug\net8.0\DataContext.AssemblyInfo.cs
+C:\Users\User\Documents\Homework\ORM\AirCompany\DataContext\obj\Debug\net8.0\DataContext.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Homework\ORM\AirCompany\DataContext\obj\Debug\net8.0\DataContext.sourcelink.json
