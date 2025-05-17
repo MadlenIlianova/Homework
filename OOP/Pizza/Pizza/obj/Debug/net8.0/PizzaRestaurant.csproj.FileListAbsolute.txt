@@ -1,0 +1,15 @@
+C:\Users\User\Documents\Homework\OOP\Pizza\Pizza\bin\Debug\net8.0\PizzaRestaurant.exe
+C:\Users\User\Documents\Homework\OOP\Pizza\Pizza\bin\Debug\net8.0\PizzaRestaurant.deps.json
+C:\Users\User\Documents\Homework\OOP\Pizza\Pizza\bin\Debug\net8.0\PizzaRestaurant.runtimeconfig.json
+C:\Users\User\Documents\Homework\OOP\Pizza\Pizza\bin\Debug\net8.0\PizzaRestaurant.dll
+C:\Users\User\Documents\Homework\OOP\Pizza\Pizza\bin\Debug\net8.0\PizzaRestaurant.pdb
+C:\Users\User\Documents\Homework\OOP\Pizza\Pizza\obj\Debug\net8.0\PizzaRestaurant.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\Homework\OOP\Pizza\Pizza\obj\Debug\net8.0\PizzaRestaurant.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Homework\OOP\Pizza\Pizza\obj\Debug\net8.0\PizzaRestaurant.AssemblyInfo.cs
+C:\Users\User\Documents\Homework\OOP\Pizza\Pizza\obj\Debug\net8.0\PizzaRestaurant.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Homework\OOP\Pizza\Pizza\obj\Debug\net8.0\PizzaRestaurant.sourcelink.json
+C:\Users\User\Documents\Homework\OOP\Pizza\Pizza\obj\Debug\net8.0\PizzaRestaurant.dll
+C:\Users\User\Documents\Homework\OOP\Pizza\Pizza\obj\Debug\net8.0\refint\PizzaRestaurant.dll
+C:\Users\User\Documents\Homework\OOP\Pizza\Pizza\obj\Debug\net8.0\PizzaRestaurant.pdb
+C:\Users\User\Documents\Homework\OOP\Pizza\Pizza\obj\Debug\net8.0\PizzaRestaurant.genruntimeconfig.cache
+C:\Users\User\Documents\Homework\OOP\Pizza\Pizza\obj\Debug\net8.0\ref\PizzaRestaurant.dll
