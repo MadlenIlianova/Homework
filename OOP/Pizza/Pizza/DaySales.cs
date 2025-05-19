@@ -17,14 +17,19 @@ namespace PizzaRestaurant
             get { return MargaritaCount + BossPizzaCount; }
         }
 
-        public void AddOrder(Pizza pizza) 
+        public void AddOrder(Pizza pizza)
         {
             string name = pizza.GetProductName().ToLower();
             int amount = pizza.GetAmount();
             if (pizza.GetProductName() == "Margarita")
-                MargaritaCount+=amount;
+            {
+                MargaritaCount += amount;
+            }
             else if (pizza.GetProductName() == "BossPizza")
+            {
                 BossPizzaCount += amount;
+            }
+
 
             TotalIncome += pizza.GetTotalPrice();
         }
