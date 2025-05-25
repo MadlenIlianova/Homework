@@ -1,14 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+using PizzaRestaurant;
 namespace PizzaRestaurant
 {
-    internal class Margarita : Pizza
+    internal class Margarita : Pizza 
     {
-        public Margarita(string size, int amount) : base(size, amount)
+        internal Margarita(string size, int amount) : base(size, amount)
         {
 
         }
@@ -16,9 +13,9 @@ namespace PizzaRestaurant
         {
             Console.WriteLine("Margarita preparing…");
             int dough = GetDoughWeight();
-            Console.WriteLine($"Pizza dough {amount}*{dough} ={amount * dough}gr");
-            Console.WriteLine($"Tomatoes {amount}*1 = {amount}");
-            Console.WriteLine($"Total: ${GetTotalPrice()}");
+            Console.WriteLine($"Pizza dough:{amount}*{dough}={amount * dough}gr");
+            PrintToppingInfo(amount);
+            Console.WriteLine($"Total:${GetTotalPrice()}");
         }
 
         public override int GetPricePerProduct()
@@ -41,29 +38,11 @@ namespace PizzaRestaurant
             }
         }
 
-        private int GetDoughWeight()
+        public override void PrintToppingInfo(int amount)
         {
-            int weight = 0;
-
-            if (size == "small")
-            {
-                weight = 300;
-            }
-            else if (size == "medium")
-            {
-                weight = 500;
-            }
-            else if (size == "large")
-            {
-                weight = 800;
-            }
-            else
-            {
-                Console.WriteLine("Невалиден размер! Избрана стойност: 0g.");
-            }
-
-            return weight;
+            Console.WriteLine($"Tomatoes:{amount}*1={amount}");
         }
+
         public override string GetProductName()
         {
             return "Margarita";

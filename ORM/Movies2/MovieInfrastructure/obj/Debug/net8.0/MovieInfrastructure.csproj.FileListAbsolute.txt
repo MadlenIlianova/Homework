@@ -1,0 +1,14 @@
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieInfrastructure\bin\Debug\net8.0\imdb_top_2000_movies.csv
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieInfrastructure\bin\Debug\net8.0\MovieInfrastructure.deps.json
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieInfrastructure\bin\Debug\net8.0\MovieInfrastructure.dll
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieInfrastructure\bin\Debug\net8.0\MovieInfrastructure.pdb
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieInfrastructure\obj\Debug\net8.0\MovieInfrastructure.csproj.AssemblyReference.cache
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieInfrastructure\obj\Debug\net8.0\MovieInfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieInfrastructure\obj\Debug\net8.0\MovieInfrastructure.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieInfrastructure\obj\Debug\net8.0\MovieInfrastructure.AssemblyInfo.cs
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieInfrastructure\obj\Debug\net8.0\MovieInfrastructure.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieInfrastructure\obj\Debug\net8.0\MovieInfrastructure.sourcelink.json
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieInfrastructure\obj\Debug\net8.0\MovieInfrastructure.dll
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieInfrastructure\obj\Debug\net8.0\refint\MovieInfrastructure.dll
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieInfrastructure\obj\Debug\net8.0\MovieInfrastructure.pdb
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieInfrastructure\obj\Debug\net8.0\ref\MovieInfrastructure.dll

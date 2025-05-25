@@ -1,23 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using PizzaRestaurant;
 
 namespace PizzaRestaurant
 {
     internal class DaySales
     {
-        public int MargaritaCount { get; private set; }
-        public int BossPizzaCount { get; private set; }
-        public int TotalIncome { get; private set; }
+        internal int MargaritaCount { get; private set; }
+        internal int BossPizzaCount { get; private set; }
+        internal int TotalIncome { get; private set; }
 
-        public int TotalPizzas
+        internal int TotalPizzas
         {
             get { return MargaritaCount + BossPizzaCount; }
         }
 
-        public void AddOrder(Pizza pizza)
+        internal void AddOrder(Pizza pizza)
         {
             string name = pizza.GetProductName().ToLower();
             int amount = pizza.GetAmount();
@@ -30,10 +28,8 @@ namespace PizzaRestaurant
                 BossPizzaCount += amount;
             }
 
-
             TotalIncome += pizza.GetTotalPrice();
         }
-
     }
 }
 
