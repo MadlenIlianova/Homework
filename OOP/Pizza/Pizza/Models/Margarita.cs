@@ -1,21 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
-using PizzaRestaurant;
-namespace PizzaRestaurant
+namespace PizzaRestaurant.Models
 {
-    internal class Margarita : Pizza 
+    internal class Margarita : Pizza
     {
-        internal Margarita(string size, int amount) : base(size, amount)
-        {
+        internal Margarita(string size, int amount) : base(size, amount) { }
 
-        }
         public override void Prepare()
         {
-            Console.WriteLine("Margarita preparing…");
+            Console.WriteLine("Preparing Margarita...");
             int dough = GetDoughWeight();
-            Console.WriteLine($"Pizza dough:{amount}*{dough}={amount * dough}gr");
+            Console.WriteLine($"Dough: {amount} * {dough} = {amount * dough} gr");
             PrintToppingInfo(amount);
-            Console.WriteLine($"Total:${GetTotalPrice()}");
+            Console.WriteLine($"Total price: ${GetTotalPrice()}");
+        }
+
+        public override string GetProductName() 
+        {
+            return "Margarita";
         }
 
         public override int GetPricePerProduct()
@@ -38,14 +40,9 @@ namespace PizzaRestaurant
             }
         }
 
-        public override void PrintToppingInfo(int amount)
+        protected override void PrintToppingInfo(int amount)
         {
-            Console.WriteLine($"Tomatoes:{amount}*1={amount}");
-        }
-
-        public override string GetProductName()
-        {
-            return "Margarita";
+            Console.WriteLine($"Tomatoes: {amount} * 1 = {amount*1}");
         }
     }
 }

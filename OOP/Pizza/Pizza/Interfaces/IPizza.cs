@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using PizzaRestaurant;
 
-namespace PizzaRestaurant
+namespace PizzaRestaurant.Interfaces
 {
     internal interface IPizza
     {
@@ -10,5 +9,6 @@ namespace PizzaRestaurant
         string GetProductName();
         int GetPricePerProduct();
         int GetTotalPrice();
+        int GetAmount();
     }
 }

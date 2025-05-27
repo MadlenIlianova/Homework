@@ -1,8 +1,8 @@
-﻿using System;
+﻿using PizzaRestaurant.Interfaces;
+using System;
 using System.Collections.Generic;
-using PizzaRestaurant;
 
-namespace PizzaRestaurant
+namespace PizzaRestaurant.Models
 {
     internal class DaySales
     {
@@ -12,24 +12,25 @@ namespace PizzaRestaurant
 
         internal int TotalPizzas
         {
-            get { return MargaritaCount + BossPizzaCount; }
+            get
+            {
+                return MargaritaCount + BossPizzaCount;
+            }
         }
 
-        internal void AddOrder(Pizza pizza)
+        public void AddOrder(IPizza pizza)
         {
             string name = pizza.GetProductName().ToLower();
             int amount = pizza.GetAmount();
-            if (pizza.GetProductName() == "Margarita")
-            {
+
+            if (name == "margarita")
                 MargaritaCount += amount;
-            }
-            else if (pizza.GetProductName() == "BossPizza")
-            {
+            else if (name == "bosspizza")
                 BossPizzaCount += amount;
-            }
 
             TotalIncome += pizza.GetTotalPrice();
         }
     }
 }
+
 

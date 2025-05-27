@@ -1,26 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
-using PizzaRestaurant;
-namespace PizzaRestaurant
+namespace PizzaRestaurant.Models
 {
     internal class BossPizza : Pizza
     {
-        internal BossPizza(string size, int amount) : base(size, amount)
-        {
+        internal BossPizza(string size, int amount) : base(size, amount) { }
 
-        }
         public override void Prepare()
         {
-            Console.WriteLine("BossPizza preparing…");
+            Console.WriteLine("Preparing BossPizza...");
             int dough = GetDoughWeight();
-            Console.WriteLine($"Pizza dough:{amount}*{dough}={amount * dough}gr");
+            Console.WriteLine($"Dough: {amount} * {dough} = {amount * dough} gr");
             PrintToppingInfo(amount);
-            Console.WriteLine($"Total:${GetTotalPrice()}");
+            Console.WriteLine($"Total price: ${GetTotalPrice()}");
         }
-        
+
+        public override string GetProductName()
+        {
+            return "BossPizza";
+        }
+
         public override int GetPricePerProduct()
         {
-            if (size == "small")
+            
+                 if (size == "small")
             {
                 return 20;
             }
@@ -36,14 +39,12 @@ namespace PizzaRestaurant
             {
                 return 0;
             }
+        
         }
-        public override void PrintToppingInfo(int amount)
+
+        protected override void PrintToppingInfo(int amount)
         {
-            Console.WriteLine($"Ham:{amount}*100={amount*100}gr");
-        }
-        public override string GetProductName()
-        {
-            return "BossPizza";
+            Console.WriteLine($"Ham: {amount} * 100 = {amount * 100} gr");
         }
     }
 }

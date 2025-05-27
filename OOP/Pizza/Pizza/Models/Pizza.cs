@@ -1,26 +1,37 @@
 ﻿using System;
 using System.Collections.Generic;
-using PizzaRestaurant;
+using PizzaRestaurant.Interfaces;
 
-namespace PizzaRestaurant
+namespace PizzaRestaurant.Models
 {
-    abstract class Pizza : IPizza , ITopping
+    public abstract class Pizza : IPizza
     {
         protected readonly string size;
         protected readonly int amount;
 
-        protected Pizza(string size,int amount)
+        protected Pizza(string size, int amount)
         {
-            this.size = size;
+            this.size = size.ToLower();
             this.amount = amount;
         }
+
         public abstract void Prepare();
-        
+
         public abstract string GetProductName();
 
         public abstract int GetPricePerProduct();
 
-        internal int GetDoughWeight()
+        public int GetTotalPrice()
+        {
+            return GetPricePerProduct() * amount;
+        }
+
+        public int GetAmount()
+        {
+            return amount;
+        }
+
+        protected int GetDoughWeight()
         {
             int weight = 0;
 
@@ -38,26 +49,15 @@ namespace PizzaRestaurant
             }
             else
             {
-                Console.WriteLine("Невалиден размер! Избрана стойност: 0g.");
+                Console.WriteLine("Невалиден размер!");
             }
-
             return weight;
         }
 
-        public int GetTotalPrice()
-        {
-            return GetPricePerProduct() * amount;
-
-        }
-
-        public abstract void PrintToppingInfo(int amount);
-
-        internal int GetAmount()
-        {
-            return amount;
-        } 
+        protected abstract void PrintToppingInfo(int amount);
     }
 }
+
 
 
 
