@@ -1,0 +1,14 @@
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieModels\bin\Debug\net8.0\MovieModels.deps.json
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieModels\bin\Debug\net8.0\MovieModels.runtimeconfig.json
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieModels\bin\Debug\net8.0\MovieModels.dll
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieModels\bin\Debug\net8.0\MovieModels.pdb
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieModels\obj\Debug\net8.0\MovieModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieModels\obj\Debug\net8.0\MovieModels.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieModels\obj\Debug\net8.0\MovieModels.AssemblyInfo.cs
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieModels\obj\Debug\net8.0\MovieModels.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieModels\obj\Debug\net8.0\MovieModels.sourcelink.json
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieModels\obj\Debug\net8.0\MovieModels.dll
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieModels\obj\Debug\net8.0\refint\MovieModels.dll
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieModels\obj\Debug\net8.0\MovieModels.pdb
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieModels\obj\Debug\net8.0\MovieModels.genruntimeconfig.cache
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieModels\obj\Debug\net8.0\ref\MovieModels.dll

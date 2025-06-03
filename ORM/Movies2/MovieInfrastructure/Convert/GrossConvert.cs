@@ -22,7 +22,7 @@ namespace MovieInfrastructure.Convert
             double multiplier = 1.0;
             if (text.EndsWith("M")) 
             {
-                text.Replace("M", "");  //134.6
+                text=text.Replace("M", "");  //134.6
             }
             if (double.TryParse(text, NumberStyles.Any, CultureInfo.InvariantCulture, out double value))
             {

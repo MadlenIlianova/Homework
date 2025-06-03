@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Text.RegularExpressions;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace MovieInfrastructure.Convert
 {
@@ -17,12 +18,20 @@ namespace MovieInfrastructure.Convert
             if (string.IsNullOrWhiteSpace(text))
                 return 0;
 
-            var match = Regex.Match(text, @"\d{4}");
-            if (match.Success && int.TryParse(match.Value, out int year))
+            var yearPart = text.Trim();
+            if (text.Contains("-"))
+            {
+                yearPart = text.Split('-')[0];
+            }
+            if (int.TryParse(yearPart, out int year))
             {
                 return year;
             }
-            return 0;
+            else
+            {
+                return 0;
+            }
+
         }
     }
 }

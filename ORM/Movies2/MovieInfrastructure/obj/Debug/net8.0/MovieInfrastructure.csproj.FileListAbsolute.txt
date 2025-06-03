@@ -12,3 +12,8 @@ C:\Users\User\Documents\Homework\ORM\Movies2\MovieInfrastructure\obj\Debug\net8.
 C:\Users\User\Documents\Homework\ORM\Movies2\MovieInfrastructure\obj\Debug\net8.0\refint\MovieInfrastructure.dll
 C:\Users\User\Documents\Homework\ORM\Movies2\MovieInfrastructure\obj\Debug\net8.0\MovieInfrastructure.pdb
 C:\Users\User\Documents\Homework\ORM\Movies2\MovieInfrastructure\obj\Debug\net8.0\ref\MovieInfrastructure.dll
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieInfrastructure\bin\Debug\net8.0\MovieInfrastructure.runtimeconfig.json
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieInfrastructure\bin\Debug\net8.0\MovieModels.dll
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieInfrastructure\bin\Debug\net8.0\MovieModels.pdb
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieInfrastructure\obj\Debug\net8.0\MovieInf.18B2ECB8.Up2Date
+C:\Users\User\Documents\Homework\ORM\Movies2\MovieInfrastructure\obj\Debug\net8.0\MovieInfrastructure.genruntimeconfig.cache

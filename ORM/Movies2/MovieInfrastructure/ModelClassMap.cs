@@ -13,7 +13,7 @@ namespace MovieInfrastructure
         public ModelClassMap()
         {
             Map(m => m.MovieName).Name("Movie Name");
-            Map(m => m.ReleaseYear).Name("Release Year");
+            Map(m => m.ReleaseYear).Name("Release Year").TypeConverter<ReleaseYearConvert>();
             Map(m => m.Duration).Name("Duration");
             Map(m => m.IMDBRating).Name("IMDB Rating");
             Map(m => m.Metascore).Name("Metascore").TypeConverter<MetascoreConvert>();
