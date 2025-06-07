@@ -1,0 +1,12 @@
+C:\Users\User\Documents\Homework\ORM\Electric_Vehicle_Population_Data\VehicleModels\bin\Debug\net8.0\VehicleModels.deps.json
+C:\Users\User\Documents\Homework\ORM\Electric_Vehicle_Population_Data\VehicleModels\bin\Debug\net8.0\VehicleModels.dll
+C:\Users\User\Documents\Homework\ORM\Electric_Vehicle_Population_Data\VehicleModels\bin\Debug\net8.0\VehicleModels.pdb
+C:\Users\User\Documents\Homework\ORM\Electric_Vehicle_Population_Data\VehicleModels\obj\Debug\net8.0\VehicleModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\Homework\ORM\Electric_Vehicle_Population_Data\VehicleModels\obj\Debug\net8.0\VehicleModels.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Homework\ORM\Electric_Vehicle_Population_Data\VehicleModels\obj\Debug\net8.0\VehicleModels.AssemblyInfo.cs
+C:\Users\User\Documents\Homework\ORM\Electric_Vehicle_Population_Data\VehicleModels\obj\Debug\net8.0\VehicleModels.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Homework\ORM\Electric_Vehicle_Population_Data\VehicleModels\obj\Debug\net8.0\VehicleModels.sourcelink.json
+C:\Users\User\Documents\Homework\ORM\Electric_Vehicle_Population_Data\VehicleModels\obj\Debug\net8.0\VehicleModels.dll
+C:\Users\User\Documents\Homework\ORM\Electric_Vehicle_Population_Data\VehicleModels\obj\Debug\net8.0\refint\VehicleModels.dll
+C:\Users\User\Documents\Homework\ORM\Electric_Vehicle_Population_Data\VehicleModels\obj\Debug\net8.0\VehicleModels.pdb
+C:\Users\User\Documents\Homework\ORM\Electric_Vehicle_Population_Data\VehicleModels\obj\Debug\net8.0\ref\VehicleModels.dll

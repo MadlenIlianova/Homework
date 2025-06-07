@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B9B1D889-B9B7-4028-80CF-EFDC52BC3B5D}|DataContext\\DataContext.csproj|c:\\users\\user\\documents\\homework\\orm\\aircompany\\datacontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B1D889-B9B7-4028-80CF-EFDC52BC3B5D}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E955914A-3C7D-449D-ACC2-4586981D1754}|AirCompany\\AirCompany.csproj|c:\\users\\user\\documents\\homework\\orm\\aircompany\\aircompany\\basemodels\\ibasemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E955914A-3C7D-449D-ACC2-4586981D1754}|AirCompany\\AirCompany.csproj|solutionrelative:aircompany\\basemodels\\ibasemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9B1D889-B9B7-4028-80CF-EFDC52BC3B5D}|DataContext\\DataContext.csproj|c:\\users\\user\\documents\\homework\\orm\\aircompany\\datacontext\\dataseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B1D889-B9B7-4028-80CF-EFDC52BC3B5D}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\dataseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B9B1D889-B9B7-4028-80CF-EFDC52BC3B5D}|DataContext\\DataContext.csproj|c:\\users\\user\\documents\\homework\\orm\\aircompany\\datacontext\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9B1D889-B9B7-4028-80CF-EFDC52BC3B5D}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B1D889-B9B7-4028-80CF-EFDC52BC3B5D}|DataContext\\DataContext.csproj|c:\\users\\user\\documents\\homework\\orm\\aircompany\\datacontext\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B1D889-B9B7-4028-80CF-EFDC52BC3B5D}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B1D889-B9B7-4028-80CF-EFDC52BC3B5D}|DataContext\\DataContext.csproj|c:\\users\\user\\documents\\homework\\orm\\aircompany\\datacontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B1D889-B9B7-4028-80CF-EFDC52BC3B5D}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B1D889-B9B7-4028-80CF-EFDC52BC3B5D}|DataContext\\DataContext.csproj|c:\\users\\user\\documents\\homework\\orm\\aircompany\\datacontext\\seed\\dataseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B1D889-B9B7-4028-80CF-EFDC52BC3B5D}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\seed\\dataseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E955914A-3C7D-449D-ACC2-4586981D1754}|AirCompany\\AirCompany.csproj|c:\\users\\user\\documents\\homework\\orm\\aircompany\\aircompany\\basemodels\\ibasemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E955914A-3C7D-449D-ACC2-4586981D1754}|AirCompany\\AirCompany.csproj|solutionrelative:aircompany\\basemodels\\ibasemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E955914A-3C7D-449D-ACC2-4586981D1754}|AirCompany\\AirCompany.csproj|c:\\users\\user\\documents\\homework\\orm\\aircompany\\aircompany\\models\\airport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,14 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E955914A-3C7D-449D-ACC2-4586981D1754}|AirCompany\\AirCompany.csproj|c:\\users\\user\\documents\\homework\\orm\\aircompany\\aircompany\\basemodels\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E955914A-3C7D-449D-ACC2-4586981D1754}|AirCompany\\AirCompany.csproj|solutionrelative:aircompany\\basemodels\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9B1D889-B9B7-4028-80CF-EFDC52BC3B5D}|DataContext\\DataContext.csproj|c:\\users\\user\\documents\\homework\\orm\\aircompany\\datacontext\\dataseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B1D889-B9B7-4028-80CF-EFDC52BC3B5D}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\dataseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9B1D889-B9B7-4028-80CF-EFDC52BC3B5D}|DataContext\\DataContext.csproj|c:\\users\\user\\documents\\homework\\orm\\aircompany\\datacontext\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B1D889-B9B7-4028-80CF-EFDC52BC3B5D}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E955914A-3C7D-449D-ACC2-4586981D1754}|AirCompany\\AirCompany.csproj|c:\\users\\user\\documents\\homework\\orm\\aircompany\\aircompany\\models\\payroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -90,8 +94,21 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataSeed.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\DataContext\\Seed\\DataSeed.cs",
+              "RelativeDocumentMoniker": "DataContext\\Seed\\DataSeed.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\DataContext\\Seed\\DataSeed.cs*",
+              "RelativeToolTip": "DataContext\\Seed\\DataSeed.cs*",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAQwFcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T12:24:24.917Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
@@ -106,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Ticket.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\AirCompany\\Models\\Ticket.cs",
               "RelativeDocumentMoniker": "AirCompany\\Models\\Ticket.cs",
@@ -118,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "DataSeed.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\DataContext\\DataSeed.cs",
               "RelativeDocumentMoniker": "DataContext\\DataSeed.cs",
@@ -126,11 +143,12 @@
               "RelativeToolTip": "DataContext\\DataSeed.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAuwCABAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:59:24.491Z"
+              "WhenOpened": "2025-04-08T05:59:24.491Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\DataContext\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "DataContext\\IUnitOfWork.cs",
@@ -138,24 +156,25 @@
               "RelativeToolTip": "DataContext\\IUnitOfWork.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:58:06.493Z"
+              "WhenOpened": "2025-04-08T05:58:06.493Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\DataContext\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "DataContext\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\DataContext\\ApplicationDbContext.cs",
               "RelativeToolTip": "DataContext\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAABMAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T06:03:52.261Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "BaseModel.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\AirCompany\\BaseModels\\BaseModel.cs",
               "RelativeDocumentMoniker": "AirCompany\\BaseModels\\BaseModel.cs",
@@ -167,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "IBaseModel.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\AirCompany\\BaseModels\\IBaseModel.cs",
               "RelativeDocumentMoniker": "AirCompany\\BaseModels\\IBaseModel.cs",
@@ -179,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Airport.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\AirCompany\\Models\\Airport.cs",
               "RelativeDocumentMoniker": "AirCompany\\Models\\Airport.cs",
@@ -191,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\DataContext\\Program.cs",
               "RelativeDocumentMoniker": "DataContext\\Program.cs",
@@ -199,11 +218,12 @@
               "RelativeToolTip": "DataContext\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:57:41.457Z"
+              "WhenOpened": "2025-04-08T05:57:41.457Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Passenger.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\AirCompany\\Models\\Passenger.cs",
               "RelativeDocumentMoniker": "AirCompany\\Models\\Passenger.cs",
@@ -215,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Payroll.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\AirCompany\\Models\\Payroll.cs",
               "RelativeDocumentMoniker": "AirCompany\\Models\\Payroll.cs",
@@ -227,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\AirCompany\\Models\\Role.cs",
               "RelativeDocumentMoniker": "AirCompany\\Models\\Role.cs",
@@ -239,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "FlightStatusChange.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\AirCompany\\Models\\FlightStatusChange.cs",
               "RelativeDocumentMoniker": "AirCompany\\Models\\FlightStatusChange.cs",
@@ -251,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Airplane.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\AirCompany\\Models\\Airplane.cs",
               "RelativeDocumentMoniker": "AirCompany\\Models\\Airplane.cs",
@@ -263,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "City.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\AirCompany\\Models\\City.cs",
               "RelativeDocumentMoniker": "AirCompany\\Models\\City.cs",
@@ -275,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Continent.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\AirCompany\\Models\\Continent.cs",
               "RelativeDocumentMoniker": "AirCompany\\Models\\Continent.cs",
@@ -287,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Country.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\AirCompany\\Models\\Country.cs",
               "RelativeDocumentMoniker": "AirCompany\\Models\\Country.cs",
@@ -299,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Crew.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\AirCompany\\Models\\Crew.cs",
               "RelativeDocumentMoniker": "AirCompany\\Models\\Crew.cs",
@@ -311,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Flight.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\AirCompany\\Models\\Flight.cs",
               "RelativeDocumentMoniker": "AirCompany\\Models\\Flight.cs",
@@ -323,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "FlightStatus.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\AirCompany\\Models\\FlightStatus.cs",
               "RelativeDocumentMoniker": "AirCompany\\Models\\FlightStatus.cs",
@@ -335,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\AirCompany\\AirCompany\\Program.cs",
               "RelativeDocumentMoniker": "AirCompany\\Program.cs",
@@ -344,6 +364,20 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T05:37:02.13Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 52,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
