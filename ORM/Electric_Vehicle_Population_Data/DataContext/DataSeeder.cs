@@ -1,5 +1,6 @@
 ﻿using Infrastructure;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -31,68 +32,89 @@ namespace DataContext
 
             var vehiclesFromCsv = _csvFileReader.GetData();
             Console.WriteLine($"{vehiclesFromCsv.Count}");
-            foreach (var vehicle in vehiclesFromCsv)
+
+            Dictionary<string, State> states = new Dictionary<string, State>();
+            Dictionary<string, County> counties = new Dictionary<string, County>();
+            Dictionary<string, City> cities = new Dictionary<string, City>();
+            Dictionary<string, Electricity> electricities = new Dictionary<string, Electricity>();
+            Dictionary<string, Vehicle> vehicles = new Dictionary<string, Vehicle>();
+            for (int i = 0; vehiclesFromCsv.Count > i; i++)
             {
-
-                var state = _vehicleDbContext.States
-                        .FirstOrDefault(s => s.StateName == vehicle.State)
-                        ?? new State { StateName = vehicle.State, };
-
-                var county = _vehicleDbContext.Counties
-                        .FirstOrDefault(c => c.CountyName == vehicle.County)
-                        ?? new County { CountyName = vehicle.County, State = state };
-
-                var city = _vehicleDbContext.Cities
-                        .FirstOrDefault(c => c.CityName == vehicle.City)
-                       ?? new City { CityName = vehicle.City, County = county };
-
-                var censusTract = _vehicleDbContext.CensusTracts
-                        .FirstOrDefault(c => c.CensusTract2020 == vehicle.num2020CensusTract)
-                        ?? new CensusTract { CensusTract2020 = vehicle.num2020CensusTract, City = city };
-
-                var electricity = _vehicleDbContext.Electricities
-                    .FirstOrDefault(e => e.ElectricVehicleType == vehicle.ElectricVehicleType &&
-                    e.ElectricUtility == vehicle.ElectricUtility &&
-                    e.ElectricRange == vehicle.ElectricRange &&
-                    e.CAFV == vehicle.CleanAlternativeFuelVehicleCAFVEligibility)
-                    //e.LegislativeDistrict == vehicle.LegislativeDistrict)
-
-                    ?? new Electricity
-                    {
-                        ElectricVehicleType = vehicle.ElectricVehicleType,
-                        ElectricUtility = vehicle.ElectricUtility,
-                        ElectricRange = vehicle.ElectricRange,
-                        CAFV = vehicle.CleanAlternativeFuelVehicleCAFVEligibility
-                    };
-
-                if (state.Id == 0) _vehicleDbContext.States.Add(state);
-                if (county.Id == 0) _vehicleDbContext.Counties.Add(county);
-                if (city.Id == 0) _vehicleDbContext.Cities.Add(city);
-                if (censusTract.Id == 0) _vehicleDbContext.CensusTracts.Add(censusTract);
-                if (electricity.Id == 0) _vehicleDbContext.Electricities.Add(electricity);
-
-                _vehicleDbContext.SaveChanges();
-
-                var vehicle1 = new Vehicle
+                if (!states.ContainsKey(vehiclesFromCsv[i].State))
                 {
-                    VIN = vehicle.VIN1_10,
-                    Make = vehicle.Make,
-                    Model = vehicle.VehicleModel,
-                    ModelYear = vehicle.ModelYear,
-                    BaseMSRP = vehicle.BaseMSRP,
-                    DOLVehicleId = vehicle.DOLVehicleID,
-                    Location = vehicle.VehicleLocation,
-                    PostalCode = vehicle.PostalCode,
-                    State = state,
-                    Electricity = electricity,
-                    City = city,
-                    CityId = city.Id,
-                    County = county,
-                    CountyId = county.Id,
-                    CensusTract = censusTract,
-                    CensusTractId = censusTract.Id
-                };
-                _vehicleDbContext.Add(vehicle1);
+                    State state = new State()
+                    {
+                        StateName = vehiclesFromCsv[i].State
+                    };
+                    states.Add(vehiclesFromCsv[i].State, state);
+                    _vehicleDbContext.Add(state);
+                }
+                if (!counties.ContainsKey(vehiclesFromCsv[i].County))
+                {
+                    County county = new County()
+                    {
+                        CountyName = vehiclesFromCsv[i].County,
+                        State = states[vehiclesFromCsv[i].State]
+                    };
+                    counties.Add(vehiclesFromCsv[i].County, county);
+                    _vehicleDbContext.Add(county);
+                }
+                if (!cities.ContainsKey(vehiclesFromCsv[i].City))
+                {
+                    City city = new City()
+                    {
+                        CityName = vehiclesFromCsv[i].City,
+                        County = counties[vehiclesFromCsv[i].County]
+                    };
+                    cities.Add(vehiclesFromCsv[i].City, city);
+                    _vehicleDbContext.Add(city);
+                }
+                
+                    CensusTract census = new CensusTract()
+                    {
+                        CensusTract2020 = vehiclesFromCsv[i].num2020CensusTract,
+                        City = cities[vehiclesFromCsv[i].City]
+                    };
+                    
+                    _vehicleDbContext.Add(census);
+
+                
+                if (!electricities.ContainsKey(vehiclesFromCsv[i].ElectricVehicleType))
+                {
+                    Electricity electricity = new Electricity()
+                    {
+                        ElectricVehicleType = vehiclesFromCsv[i].ElectricVehicleType,
+                        ElectricUtility = vehiclesFromCsv[i].ElectricUtility,
+                        ElectricRange = vehiclesFromCsv[i].ElectricRange,
+                        CAFV = vehiclesFromCsv[i].CleanAlternativeFuelVehicleCAFVEligibility,
+                        LegislativeDistrict = vehiclesFromCsv[i].LegislativeDistrict,
+                    };
+                    electricities.Add(vehiclesFromCsv[i].ElectricVehicleType, electricity);
+                    _vehicleDbContext.Add(electricity);
+                }
+                if (!vehicles.ContainsKey(vehiclesFromCsv[i].VIN1_10))
+                {
+                    Vehicle vehicle = new Vehicle()
+                    {
+                        VIN = vehiclesFromCsv[i].VIN1_10,
+                        Make = vehiclesFromCsv[i].Make,
+                        Model = vehiclesFromCsv[i].VehicleModel,
+                        ModelYear = vehiclesFromCsv[i].ModelYear,
+                        BaseMSRP = vehiclesFromCsv[i].BaseMSRP,
+                        DOLVehicleId = vehiclesFromCsv[i].DOLVehicleID,
+                        Location = vehiclesFromCsv[i].VehicleLocation,
+                        PostalCode = vehiclesFromCsv[i].PostalCode,
+                        Electricity = electricities[vehiclesFromCsv[i].ElectricVehicleType],
+                        State = states[vehiclesFromCsv[i].State],
+                        City = cities[vehiclesFromCsv[i].City],
+                        County = counties[vehiclesFromCsv[i].County],
+                        CensusTract = census,
+
+                    };
+                    vehicles.Add(vehiclesFromCsv[i].VIN1_10, vehicle);
+                    _vehicleDbContext.Add(vehicle);
+                }
+               
             }
             _vehicleDbContext.SaveChanges();
         }

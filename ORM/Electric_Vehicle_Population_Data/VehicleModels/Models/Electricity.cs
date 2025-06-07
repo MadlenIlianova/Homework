@@ -10,10 +10,10 @@ namespace VehicleModels.Models
     public class Electricity : BaseModel
     {
         public string ElectricVehicleType { get; set; }
-        public int ElectricRange { get; set; }
+        public int? ElectricRange { get; set; }
         public string ElectricUtility { get; set; }
         public string CAFV { get; set; }
-        public int LegislativeDistrict { get; set; }
+        public int? LegislativeDistrict { get; set; }
         public List<Vehicle> Vehicles { get; set; }
     }
 }

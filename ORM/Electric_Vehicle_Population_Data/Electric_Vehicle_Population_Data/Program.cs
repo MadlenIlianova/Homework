@@ -1,4 +1,5 @@
-﻿using DataContext;
+﻿
+using DataContext;
 using Infrastructure;
 
 namespace Electric_Vehicle_Population_Data
@@ -13,7 +14,8 @@ namespace Electric_Vehicle_Population_Data
                 csvFileReader.GetData();
                 var dataSeed = new DataSeeder(csvFileReader, context);
                 dataSeed.SeedData();
-            }            
+                Console.WriteLine("gotovo");
+            }
         }
     }
 }
