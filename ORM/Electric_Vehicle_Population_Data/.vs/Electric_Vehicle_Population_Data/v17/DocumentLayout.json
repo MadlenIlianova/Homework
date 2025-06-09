@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6FEE227B-0E26-4381-B4B8-E0279A8ECA1D}|VehicleModels\\VehicleModels.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\vehiclemodels\\basemodels\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FEE227B-0E26-4381-B4B8-E0279A8ECA1D}|VehicleModels\\VehicleModels.csproj|solutionrelative:vehiclemodels\\basemodels\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{81BBC340-B6A9-48A5-A12C-20A3FC901FDD}|DataContext\\DataContext.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\datacontext\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81BBC340-B6A9-48A5-A12C-20A3FC901FDD}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{81BBC340-B6A9-48A5-A12C-20A3FC901FDD}|DataContext\\DataContext.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\datacontext\\queries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,8 +15,52 @@
       "RelativeMoniker": "D:0:0:{81BBC340-B6A9-48A5-A12C-20A3FC901FDD}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\vehicledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{81BBC340-B6A9-48A5-A12C-20A3FC901FDD}|DataContext\\DataContext.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\datacontext\\idataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81BBC340-B6A9-48A5-A12C-20A3FC901FDD}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\idataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81BBC340-B6A9-48A5-A12C-20A3FC901FDD}|DataContext\\DataContext.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\datacontext\\datacontext.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{81BBC340-B6A9-48A5-A12C-20A3FC901FDD}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\datacontext.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4C04EE40-39CA-4571-96A3-7C86261CDFE3}|Electric_Vehicle_Population_Data\\Electric_Vehicle_Population_Data.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\electric_vehicle_population_data\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C04EE40-39CA-4571-96A3-7C86261CDFE3}|Electric_Vehicle_Population_Data\\Electric_Vehicle_Population_Data.csproj|solutionrelative:electric_vehicle_population_data\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81BBC340-B6A9-48A5-A12C-20A3FC901FDD}|DataContext\\DataContext.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\datacontext\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81BBC340-B6A9-48A5-A12C-20A3FC901FDD}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81BBC340-B6A9-48A5-A12C-20A3FC901FDD}|DataContext\\DataContext.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\datacontext\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81BBC340-B6A9-48A5-A12C-20A3FC901FDD}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8919679D-B007-4460-A3D1-F41BF39317DF}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\infrastructure\\icsvfilereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8919679D-B007-4460-A3D1-F41BF39317DF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\icsvfilereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FEE227B-0E26-4381-B4B8-E0279A8ECA1D}|VehicleModels\\VehicleModels.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\vehiclemodels\\basemodels\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FEE227B-0E26-4381-B4B8-E0279A8ECA1D}|VehicleModels\\VehicleModels.csproj|solutionrelative:vehiclemodels\\basemodels\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FEE227B-0E26-4381-B4B8-E0279A8ECA1D}|VehicleModels\\VehicleModels.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\vehiclemodels\\basemodels\\ibasemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FEE227B-0E26-4381-B4B8-E0279A8ECA1D}|VehicleModels\\VehicleModels.csproj|solutionrelative:vehiclemodels\\basemodels\\ibasemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8919679D-B007-4460-A3D1-F41BF39317DF}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\infrastructure\\csvfilereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8919679D-B007-4460-A3D1-F41BF39317DF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\csvfilereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8919679D-B007-4460-A3D1-F41BF39317DF}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\infrastructure\\globalparams\\globalparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8919679D-B007-4460-A3D1-F41BF39317DF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\globalparams\\globalparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FEE227B-0E26-4381-B4B8-E0279A8ECA1D}|VehicleModels\\VehicleModels.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\vehiclemodels\\models\\county.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FEE227B-0E26-4381-B4B8-E0279A8ECA1D}|VehicleModels\\VehicleModels.csproj|solutionrelative:vehiclemodels\\models\\county.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FEE227B-0E26-4381-B4B8-E0279A8ECA1D}|VehicleModels\\VehicleModels.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\vehiclemodels\\models\\electricity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FEE227B-0E26-4381-B4B8-E0279A8ECA1D}|VehicleModels\\VehicleModels.csproj|solutionrelative:vehiclemodels\\models\\electricity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FEE227B-0E26-4381-B4B8-E0279A8ECA1D}|VehicleModels\\VehicleModels.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\vehiclemodels\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,10 +71,6 @@
       "RelativeMoniker": "D:0:0:{6FEE227B-0E26-4381-B4B8-E0279A8ECA1D}|VehicleModels\\VehicleModels.csproj|solutionrelative:vehiclemodels\\models\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FEE227B-0E26-4381-B4B8-E0279A8ECA1D}|VehicleModels\\VehicleModels.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\vehiclemodels\\models\\electricity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FEE227B-0E26-4381-B4B8-E0279A8ECA1D}|VehicleModels\\VehicleModels.csproj|solutionrelative:vehiclemodels\\models\\electricity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6FEE227B-0E26-4381-B4B8-E0279A8ECA1D}|VehicleModels\\VehicleModels.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\vehiclemodels\\models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FEE227B-0E26-4381-B4B8-E0279A8ECA1D}|VehicleModels\\VehicleModels.csproj|solutionrelative:vehiclemodels\\models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,12 +79,8 @@
       "RelativeMoniker": "D:0:0:{6FEE227B-0E26-4381-B4B8-E0279A8ECA1D}|VehicleModels\\VehicleModels.csproj|solutionrelative:vehiclemodels\\models\\censustract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81BBC340-B6A9-48A5-A12C-20A3FC901FDD}|DataContext\\DataContext.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\datacontext\\idataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81BBC340-B6A9-48A5-A12C-20A3FC901FDD}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\idataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81BBC340-B6A9-48A5-A12C-20A3FC901FDD}|DataContext\\DataContext.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\datacontext\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81BBC340-B6A9-48A5-A12C-20A3FC901FDD}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\Migrations\\20250609143750_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataContext\\Migrations\\20250609143750_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8919679D-B007-4460-A3D1-F41BF39317DF}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\infrastructure\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,58 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8919679D-B007-4460-A3D1-F41BF39317DF}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\infrastructure\\modelclassmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8919679D-B007-4460-A3D1-F41BF39317DF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\modelclassmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8919679D-B007-4460-A3D1-F41BF39317DF}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\infrastructure\\csvfilereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8919679D-B007-4460-A3D1-F41BF39317DF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\csvfilereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8919679D-B007-4460-A3D1-F41BF39317DF}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\infrastructure\\icsvfilereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8919679D-B007-4460-A3D1-F41BF39317DF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\icsvfilereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81BBC340-B6A9-48A5-A12C-20A3FC901FDD}|DataContext\\DataContext.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\datacontext\\datacontext.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{81BBC340-B6A9-48A5-A12C-20A3FC901FDD}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\datacontext.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FEE227B-0E26-4381-B4B8-E0279A8ECA1D}|VehicleModels\\VehicleModels.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\vehiclemodels\\models\\county.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FEE227B-0E26-4381-B4B8-E0279A8ECA1D}|VehicleModels\\VehicleModels.csproj|solutionrelative:vehiclemodels\\models\\county.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FEE227B-0E26-4381-B4B8-E0279A8ECA1D}|VehicleModels\\VehicleModels.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\vehiclemodels\\basemodels\\ibasemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FEE227B-0E26-4381-B4B8-E0279A8ECA1D}|VehicleModels\\VehicleModels.csproj|solutionrelative:vehiclemodels\\basemodels\\ibasemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8919679D-B007-4460-A3D1-F41BF39317DF}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\infrastructure\\globalparams\\globalparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8919679D-B007-4460-A3D1-F41BF39317DF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\globalparams\\globalparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81BBC340-B6A9-48A5-A12C-20A3FC901FDD}|DataContext\\DataContext.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\datacontext\\migrations\\20250607010201_initial6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81BBC340-B6A9-48A5-A12C-20A3FC901FDD}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\migrations\\20250607010201_initial6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81BBC340-B6A9-48A5-A12C-20A3FC901FDD}|DataContext\\DataContext.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\datacontext\\migrations\\20250607010050_initial5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81BBC340-B6A9-48A5-A12C-20A3FC901FDD}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\migrations\\20250607010050_initial5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81BBC340-B6A9-48A5-A12C-20A3FC901FDD}|DataContext\\DataContext.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\datacontext\\migrations\\20250606221058_initial2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81BBC340-B6A9-48A5-A12C-20A3FC901FDD}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\migrations\\20250606221058_initial2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81BBC340-B6A9-48A5-A12C-20A3FC901FDD}|DataContext\\DataContext.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\datacontext\\migrations\\20250606214621_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81BBC340-B6A9-48A5-A12C-20A3FC901FDD}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\migrations\\20250606214621_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81BBC340-B6A9-48A5-A12C-20A3FC901FDD}|DataContext\\DataContext.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\datacontext\\migrations\\20250607133931_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81BBC340-B6A9-48A5-A12C-20A3FC901FDD}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\migrations\\20250607133931_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81BBC340-B6A9-48A5-A12C-20A3FC901FDD}|DataContext\\DataContext.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\datacontext\\migrations\\20250607155312_initial89.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81BBC340-B6A9-48A5-A12C-20A3FC901FDD}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\migrations\\20250607155312_initial89.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81BBC340-B6A9-48A5-A12C-20A3FC901FDD}|DataContext\\DataContext.csproj|c:\\users\\user\\documents\\homework\\orm\\electric_vehicle_population_data\\datacontext\\migrations\\20250607192215_create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81BBC340-B6A9-48A5-A12C-20A3FC901FDD}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\migrations\\20250607192215_create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -114,19 +98,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Queries.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\Queries.cs",
-              "RelativeDocumentMoniker": "DataContext\\Queries.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\Queries.cs",
-              "RelativeToolTip": "DataContext\\Queries.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "IVehicleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\IVehicleRepository.cs",
+              "RelativeDocumentMoniker": "DataContext\\IVehicleRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\IVehicleRepository.cs",
+              "RelativeToolTip": "DataContext\\IVehicleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T20:12:30.903Z",
+              "WhenOpened": "2025-06-09T17:16:51.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VehicleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\VehicleRepository.cs",
+              "RelativeDocumentMoniker": "DataContext\\VehicleRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\VehicleRepository.cs",
+              "RelativeToolTip": "DataContext\\VehicleRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA/wDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T17:16:33.242Z",
               "EditorCaption": ""
             },
             {
@@ -143,59 +140,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Electricity.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\VehicleModels\\Models\\Electricity.cs",
-              "RelativeDocumentMoniker": "VehicleModels\\Models\\Electricity.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\VehicleModels\\Models\\Electricity.cs",
-              "RelativeToolTip": "VehicleModels\\Models\\Electricity.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "VehicleDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\VehicleDbContext.cs",
+              "RelativeDocumentMoniker": "DataContext\\VehicleDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\VehicleDbContext.cs",
+              "RelativeToolTip": "DataContext\\VehicleDbContext.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwEAAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T14:52:29.727Z",
+              "WhenOpened": "2025-06-06T17:51:04.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Queries.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\Queries.cs",
+              "RelativeDocumentMoniker": "DataContext\\Queries.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\Queries.cs",
+              "RelativeToolTip": "DataContext\\Queries.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwBQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T20:12:30.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\Electric_Vehicle_Population_Data\\Program.cs",
+              "RelativeDocumentMoniker": "Electric_Vehicle_Population_Data\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\Electric_Vehicle_Population_Data\\Program.cs",
+              "RelativeToolTip": "Electric_Vehicle_Population_Data\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T14:05:55.462Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Vehicle.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\VehicleModels\\Models\\Vehicle.cs",
-              "RelativeDocumentMoniker": "VehicleModels\\Models\\Vehicle.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\VehicleModels\\Models\\Vehicle.cs",
-              "RelativeToolTip": "VehicleModels\\Models\\Vehicle.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAswBoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T14:34:54.823Z",
+              "Title": "DataContext.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\DataContext.csproj",
+              "RelativeDocumentMoniker": "DataContext\\DataContext.csproj",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\DataContext.csproj",
+              "RelativeToolTip": "DataContext\\DataContext.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-07T15:26:06.143Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CensusTract.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\VehicleModels\\Models\\CensusTract.cs",
-              "RelativeDocumentMoniker": "VehicleModels\\Models\\CensusTract.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\VehicleModels\\Models\\CensusTract.cs",
-              "RelativeToolTip": "VehicleModels\\Models\\CensusTract.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T17:05:01.501Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "City.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\VehicleModels\\Models\\City.cs",
-              "RelativeDocumentMoniker": "VehicleModels\\Models\\City.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\VehicleModels\\Models\\City.cs",
-              "RelativeToolTip": "VehicleModels\\Models\\City.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T17:04:31.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "IDataSeeder.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\IDataSeeder.cs",
               "RelativeDocumentMoniker": "DataContext\\IDataSeeder.cs",
@@ -208,7 +205,124 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "DataSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\DataSeeder.cs",
+              "RelativeDocumentMoniker": "DataContext\\DataSeeder.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\DataSeeder.cs",
+              "RelativeToolTip": "DataContext\\DataSeeder.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAYwA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T18:39:55.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ICsvFileReader.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\Infrastructure\\ICsvFileReader.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ICsvFileReader.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\Infrastructure\\ICsvFileReader.cs",
+              "RelativeToolTip": "Infrastructure\\ICsvFileReader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T15:33:06.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BaseModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\VehicleModels\\BaseModels\\BaseModel.cs",
+              "RelativeDocumentMoniker": "VehicleModels\\BaseModels\\BaseModel.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\VehicleModels\\BaseModels\\BaseModel.cs",
+              "RelativeToolTip": "VehicleModels\\BaseModels\\BaseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T15:24:19.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IBaseModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\VehicleModels\\BaseModels\\IBaseModel.cs",
+              "RelativeDocumentMoniker": "VehicleModels\\BaseModels\\IBaseModel.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\VehicleModels\\BaseModels\\IBaseModel.cs",
+              "RelativeToolTip": "VehicleModels\\BaseModels\\IBaseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T15:20:20.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CsvFileReader.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\Infrastructure\\CsvFileReader.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\CsvFileReader.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\Infrastructure\\CsvFileReader.cs",
+              "RelativeToolTip": "Infrastructure\\CsvFileReader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T15:30:09.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GlobalParams.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\Infrastructure\\GlobalParams\\GlobalParams.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\GlobalParams\\GlobalParams.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\Infrastructure\\GlobalParams\\GlobalParams.cs",
+              "RelativeToolTip": "Infrastructure\\GlobalParams\\GlobalParams.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T15:44:34.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "County.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\VehicleModels\\Models\\County.cs",
+              "RelativeDocumentMoniker": "VehicleModels\\Models\\County.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\VehicleModels\\Models\\County.cs",
+              "RelativeToolTip": "VehicleModels\\Models\\County.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T17:04:02.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Electricity.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\VehicleModels\\Models\\Electricity.cs",
+              "RelativeDocumentMoniker": "VehicleModels\\Models\\Electricity.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\VehicleModels\\Models\\Electricity.cs",
+              "RelativeToolTip": "VehicleModels\\Models\\Electricity.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T14:52:29.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\VehicleModels\\Models\\Vehicle.cs",
+              "RelativeDocumentMoniker": "VehicleModels\\Models\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\VehicleModels\\Models\\Vehicle.cs",
+              "RelativeToolTip": "VehicleModels\\Models\\Vehicle.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA7wBoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T14:34:54.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "State.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\VehicleModels\\Models\\State.cs",
               "RelativeDocumentMoniker": "VehicleModels\\Models\\State.cs",
@@ -221,59 +335,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\Electric_Vehicle_Population_Data\\Program.cs",
-              "RelativeDocumentMoniker": "Electric_Vehicle_Population_Data\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\Electric_Vehicle_Population_Data\\Program.cs",
-              "RelativeToolTip": "Electric_Vehicle_Population_Data\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "City.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\VehicleModels\\Models\\City.cs",
+              "RelativeDocumentMoniker": "VehicleModels\\Models\\City.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\VehicleModels\\Models\\City.cs",
+              "RelativeToolTip": "VehicleModels\\Models\\City.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T14:05:55.462Z",
+              "WhenOpened": "2025-06-06T17:04:31.244Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VehicleDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\VehicleDbContext.cs",
-              "RelativeDocumentMoniker": "DataContext\\VehicleDbContext.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\VehicleDbContext.cs",
-              "RelativeToolTip": "DataContext\\VehicleDbContext.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAYwA4AAAAsAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "CensusTract.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\VehicleModels\\Models\\CensusTract.cs",
+              "RelativeDocumentMoniker": "VehicleModels\\Models\\CensusTract.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\VehicleModels\\Models\\CensusTract.cs",
+              "RelativeToolTip": "VehicleModels\\Models\\CensusTract.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T17:51:04.61Z",
+              "WhenOpened": "2025-06-06T17:05:01.501Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BaseModel.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\VehicleModels\\BaseModels\\BaseModel.cs",
-              "RelativeDocumentMoniker": "VehicleModels\\BaseModels\\BaseModel.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\VehicleModels\\BaseModels\\BaseModel.cs",
-              "RelativeToolTip": "VehicleModels\\BaseModels\\BaseModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "Model.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\Infrastructure\\Model.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Model.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\Infrastructure\\Model.cs",
+              "RelativeToolTip": "Infrastructure\\Model.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T15:24:19.437Z",
+              "WhenOpened": "2025-06-06T15:34:23.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20250609143750_initial.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\Migrations\\20250609143750_initial.cs",
+              "RelativeDocumentMoniker": "DataContext\\Migrations\\20250609143750_initial.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\Migrations\\20250609143750_initial.cs",
+              "RelativeToolTip": "DataContext\\Migrations\\20250609143750_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T14:37:50.323Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DataSeeder.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\DataSeeder.cs",
-              "RelativeDocumentMoniker": "DataContext\\DataSeeder.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\DataSeeder.cs",
-              "RelativeToolTip": "DataContext\\DataSeeder.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAD4v28AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T18:39:55.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 21,
               "Title": "ModelClassMap.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\Infrastructure\\ModelClassMap.cs",
               "RelativeDocumentMoniker": "Infrastructure\\ModelClassMap.cs",
@@ -282,174 +395,6 @@
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-06T15:55:00.345Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Model.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\Infrastructure\\Model.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Model.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\Infrastructure\\Model.cs",
-              "RelativeToolTip": "Infrastructure\\Model.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA4wBsAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T15:34:23.675Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "20250607192215_create.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\Migrations\\20250607192215_create.cs",
-              "RelativeDocumentMoniker": "DataContext\\Migrations\\20250607192215_create.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\Migrations\\20250607192215_create.cs",
-              "RelativeToolTip": "DataContext\\Migrations\\20250607192215_create.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T19:22:15.469Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CsvFileReader.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\Infrastructure\\CsvFileReader.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\CsvFileReader.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\Infrastructure\\CsvFileReader.cs",
-              "RelativeToolTip": "Infrastructure\\CsvFileReader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T15:30:09.713Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ICsvFileReader.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\Infrastructure\\ICsvFileReader.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\ICsvFileReader.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\Infrastructure\\ICsvFileReader.cs",
-              "RelativeToolTip": "Infrastructure\\ICsvFileReader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T15:33:06.098Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "GlobalParams.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\Infrastructure\\GlobalParams\\GlobalParams.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\GlobalParams\\GlobalParams.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\Infrastructure\\GlobalParams\\GlobalParams.cs",
-              "RelativeToolTip": "Infrastructure\\GlobalParams\\GlobalParams.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T15:44:34.731Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "DataContext.csproj",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\DataContext.csproj",
-              "RelativeDocumentMoniker": "DataContext\\DataContext.csproj",
-              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\DataContext.csproj",
-              "RelativeToolTip": "DataContext\\DataContext.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-07T15:26:06.143Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "20250607155312_initial89.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\Migrations\\20250607155312_initial89.cs",
-              "RelativeDocumentMoniker": "DataContext\\Migrations\\20250607155312_initial89.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\Migrations\\20250607155312_initial89.cs",
-              "RelativeToolTip": "DataContext\\Migrations\\20250607155312_initial89.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T15:53:13.128Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "County.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\VehicleModels\\Models\\County.cs",
-              "RelativeDocumentMoniker": "VehicleModels\\Models\\County.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\VehicleModels\\Models\\County.cs",
-              "RelativeToolTip": "VehicleModels\\Models\\County.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T17:04:02.413Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IBaseModel.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\VehicleModels\\BaseModels\\IBaseModel.cs",
-              "RelativeDocumentMoniker": "VehicleModels\\BaseModels\\IBaseModel.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\VehicleModels\\BaseModels\\IBaseModel.cs",
-              "RelativeToolTip": "VehicleModels\\BaseModels\\IBaseModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T15:20:20.545Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "20250607133931_data.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\Migrations\\20250607133931_data.cs",
-              "RelativeDocumentMoniker": "DataContext\\Migrations\\20250607133931_data.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\Migrations\\20250607133931_data.cs",
-              "RelativeToolTip": "DataContext\\Migrations\\20250607133931_data.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T13:39:31.951Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "20250607010201_initial6.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\Migrations\\20250607010201_initial6.cs",
-              "RelativeDocumentMoniker": "DataContext\\Migrations\\20250607010201_initial6.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\Migrations\\20250607010201_initial6.cs",
-              "RelativeToolTip": "DataContext\\Migrations\\20250607010201_initial6.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T01:02:01.084Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "20250607010050_initial5.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\Migrations\\20250607010050_initial5.cs",
-              "RelativeDocumentMoniker": "DataContext\\Migrations\\20250607010050_initial5.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\Migrations\\20250607010050_initial5.cs",
-              "RelativeToolTip": "DataContext\\Migrations\\20250607010050_initial5.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T01:00:50.128Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "20250606221058_initial2.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\Migrations\\20250606221058_initial2.cs",
-              "RelativeDocumentMoniker": "DataContext\\Migrations\\20250606221058_initial2.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\Migrations\\20250606221058_initial2.cs",
-              "RelativeToolTip": "DataContext\\Migrations\\20250606221058_initial2.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T22:10:58.629Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "20250606214621_initial.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\Migrations\\20250606214621_initial.cs",
-              "RelativeDocumentMoniker": "DataContext\\Migrations\\20250606214621_initial.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Electric_Vehicle_Population_Data\\DataContext\\Migrations\\20250606214621_initial.cs",
-              "RelativeToolTip": "DataContext\\Migrations\\20250606214621_initial.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T21:46:21.672Z"
             }
           ]
         },

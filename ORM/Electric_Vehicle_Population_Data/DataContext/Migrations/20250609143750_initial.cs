@@ -18,10 +18,10 @@ namespace DataContext.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     ElectricVehicleType = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    ElectricRange = table.Column<int>(type: "int", nullable: false),
+                    ElectricRange = table.Column<int>(type: "int", nullable: true),
                     ElectricUtility = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CAFV = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    LegislativeDistrict = table.Column<int>(type: "int", nullable: false),
+                    LegislativeDistrict = table.Column<int>(type: "int", nullable: true),
                     CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UpdatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
                     IsDeletedAt = table.Column<bool>(type: "bit", nullable: false)
@@ -29,17 +29,6 @@ namespace DataContext.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Electricities", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Points",
-                columns: table => new
-                {
-                    Longitude = table.Column<double>(type: "float", nullable: false),
-                    Latitude = table.Column<double>(type: "float", nullable: false)
-                },
-                constraints: table =>
-                {
                 });
 
             migrationBuilder.CreateTable(
@@ -82,42 +71,6 @@ namespace DataContext.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Vehicles",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    VIN = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Make = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Model = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    ModelYear = table.Column<int>(type: "int", nullable: false),
-                    BaseMSRP = table.Column<int>(type: "int", nullable: false),
-                    DOLVehicleId = table.Column<int>(type: "int", nullable: false),
-                    PostalCode = table.Column<int>(type: "int", nullable: false),
-                    StateId = table.Column<int>(type: "int", nullable: false),
-                    ElectricityId = table.Column<int>(type: "int", nullable: false),
-                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    UpdatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    IsDeletedAt = table.Column<bool>(type: "bit", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Vehicles", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Vehicles_Electricities_ElectricityId",
-                        column: x => x.ElectricityId,
-                        principalTable: "Electricities",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_Vehicles_States_StateId",
-                        column: x => x.StateId,
-                        principalTable: "States",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Cities",
                 columns: table => new
                 {
@@ -146,7 +99,7 @@ namespace DataContext.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    CensusTract2020 = table.Column<int>(type: "int", nullable: false),
+                    CensusTract2020 = table.Column<long>(type: "bigint", nullable: true),
                     CityId = table.Column<int>(type: "int", nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UpdatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
@@ -159,6 +112,64 @@ namespace DataContext.Migrations
                         name: "FK_CensusTracts_Cities_CityId",
                         column: x => x.CityId,
                         principalTable: "Cities",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Vehicles",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    VIN = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Make = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Model = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ModelYear = table.Column<int>(type: "int", nullable: true),
+                    BaseMSRP = table.Column<int>(type: "int", nullable: true),
+                    DOLVehicleId = table.Column<int>(type: "int", nullable: false),
+                    Location = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    PostalCode = table.Column<int>(type: "int", nullable: true),
+                    StateId = table.Column<int>(type: "int", nullable: false),
+                    ElectricityId = table.Column<int>(type: "int", nullable: false),
+                    CityId = table.Column<int>(type: "int", nullable: false),
+                    CountyId = table.Column<int>(type: "int", nullable: false),
+                    CensusTractId = table.Column<int>(type: "int", nullable: false),
+                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    UpdatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    IsDeletedAt = table.Column<bool>(type: "bit", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Vehicles", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Vehicles_CensusTracts_CensusTractId",
+                        column: x => x.CensusTractId,
+                        principalTable: "CensusTracts",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Vehicles_Cities_CityId",
+                        column: x => x.CityId,
+                        principalTable: "Cities",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Vehicles_Counties_CountyId",
+                        column: x => x.CountyId,
+                        principalTable: "Counties",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Vehicles_Electricities_ElectricityId",
+                        column: x => x.ElectricityId,
+                        principalTable: "Electricities",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_Vehicles_States_StateId",
+                        column: x => x.StateId,
+                        principalTable: "States",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
@@ -179,6 +190,21 @@ namespace DataContext.Migrations
                 column: "StateId");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Vehicles_CensusTractId",
+                table: "Vehicles",
+                column: "CensusTractId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Vehicles_CityId",
+                table: "Vehicles",
+                column: "CityId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Vehicles_CountyId",
+                table: "Vehicles",
+                column: "CountyId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Vehicles_ElectricityId",
                 table: "Vehicles",
                 column: "ElectricityId");
@@ -193,19 +219,16 @@ namespace DataContext.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "CensusTracts");
-
-            migrationBuilder.DropTable(
-                name: "Points");
-
-            migrationBuilder.DropTable(
                 name: "Vehicles");
 
             migrationBuilder.DropTable(
-                name: "Cities");
+                name: "CensusTracts");
 
             migrationBuilder.DropTable(
                 name: "Electricities");
+
+            migrationBuilder.DropTable(
+                name: "Cities");
 
             migrationBuilder.DropTable(
                 name: "Counties");

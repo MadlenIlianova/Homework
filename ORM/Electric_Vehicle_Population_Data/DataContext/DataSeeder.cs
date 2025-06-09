@@ -18,8 +18,8 @@ namespace DataContext
 
         public DataSeeder(CsvFileReader csvFile, VehicleDbContext context)
         {
-            this._csvFileReader = csvFile;
-            this._vehicleDbContext = context;
+            _csvFileReader = csvFile;
+            _vehicleDbContext = context;
         }
 
         public void SeedData()
@@ -33,90 +33,79 @@ namespace DataContext
             var vehiclesFromCsv = _csvFileReader.GetData();
             Console.WriteLine($"{vehiclesFromCsv.Count}");
 
-            Dictionary<string, State> states = new Dictionary<string, State>();
-            Dictionary<string, County> counties = new Dictionary<string, County>();
-            Dictionary<string, City> cities = new Dictionary<string, City>();
-            Dictionary<string, Electricity> electricities = new Dictionary<string, Electricity>();
-            Dictionary<string, Vehicle> vehicles = new Dictionary<string, Vehicle>();
-            for (int i = 0; vehiclesFromCsv.Count > i; i++)
+            var states = new Dictionary<string, State>();
+            var counties = new Dictionary<string, County>();
+            var cities = new Dictionary<string, City>();
+            var electricities = new Dictionary<string, Electricity>();
+            var censusTracts = new Dictionary<(string, long?), CensusTract>();
+            var vehicles = new Dictionary<int, Vehicle>();
+
+            foreach (var row in vehiclesFromCsv)
             {
-                if (!states.ContainsKey(vehiclesFromCsv[i].State))
+                if (!states.TryGetValue(row.State, out var state))
                 {
-                    State state = new State()
-                    {
-                        StateName = vehiclesFromCsv[i].State
-                    };
-                    states.Add(vehiclesFromCsv[i].State, state);
-                    _vehicleDbContext.Add(state);
+                    state = new State { StateName = row.State };
+                    states[row.State] = state;
                 }
-                if (!counties.ContainsKey(vehiclesFromCsv[i].County))
-                {
-                    County county = new County()
-                    {
-                        CountyName = vehiclesFromCsv[i].County,
-                        State = states[vehiclesFromCsv[i].State]
-                    };
-                    counties.Add(vehiclesFromCsv[i].County, county);
-                    _vehicleDbContext.Add(county);
-                }
-                if (!cities.ContainsKey(vehiclesFromCsv[i].City))
-                {
-                    City city = new City()
-                    {
-                        CityName = vehiclesFromCsv[i].City,
-                        County = counties[vehiclesFromCsv[i].County]
-                    };
-                    cities.Add(vehiclesFromCsv[i].City, city);
-                    _vehicleDbContext.Add(city);
-                }
-                
-                    CensusTract census = new CensusTract()
-                    {
-                        CensusTract2020 = vehiclesFromCsv[i].num2020CensusTract,
-                        City = cities[vehiclesFromCsv[i].City]
-                    };
-                    
-                    _vehicleDbContext.Add(census);
 
-                
-                if (!electricities.ContainsKey(vehiclesFromCsv[i].ElectricVehicleType))
+                if (!counties.TryGetValue(row.County, out var county))
                 {
-                    Electricity electricity = new Electricity()
-                    {
-                        ElectricVehicleType = vehiclesFromCsv[i].ElectricVehicleType,
-                        ElectricUtility = vehiclesFromCsv[i].ElectricUtility,
-                        ElectricRange = vehiclesFromCsv[i].ElectricRange,
-                        CAFV = vehiclesFromCsv[i].CleanAlternativeFuelVehicleCAFVEligibility,
-                        LegislativeDistrict = vehiclesFromCsv[i].LegislativeDistrict,
-                    };
-                    electricities.Add(vehiclesFromCsv[i].ElectricVehicleType, electricity);
-                    _vehicleDbContext.Add(electricity);
+                    county = new County { CountyName = row.County, State = state };
+                    counties[row.County] = county;
                 }
-                if (!vehicles.ContainsKey(vehiclesFromCsv[i].VIN1_10))
-                {
-                    Vehicle vehicle = new Vehicle()
-                    {
-                        VIN = vehiclesFromCsv[i].VIN1_10,
-                        Make = vehiclesFromCsv[i].Make,
-                        Model = vehiclesFromCsv[i].VehicleModel,
-                        ModelYear = vehiclesFromCsv[i].ModelYear,
-                        BaseMSRP = vehiclesFromCsv[i].BaseMSRP,
-                        DOLVehicleId = vehiclesFromCsv[i].DOLVehicleID,
-                        Location = vehiclesFromCsv[i].VehicleLocation,
-                        PostalCode = vehiclesFromCsv[i].PostalCode,
-                        Electricity = electricities[vehiclesFromCsv[i].ElectricVehicleType],
-                        State = states[vehiclesFromCsv[i].State],
-                        City = cities[vehiclesFromCsv[i].City],
-                        County = counties[vehiclesFromCsv[i].County],
-                        CensusTract = census,
 
-                    };
-                    vehicles.Add(vehiclesFromCsv[i].VIN1_10, vehicle);
-                    _vehicleDbContext.Add(vehicle);
+                if (!cities.TryGetValue(row.City, out var city))
+                {
+                    city = new City { CityName = row.City, County = county };
+                    cities[row.City] = city;
                 }
-               
+
+                var censusKey = (row.City, row.num2020CensusTract);
+                if (!censusTracts.TryGetValue(censusKey, out var censusTract))
+                {
+                    censusTract = new CensusTract { CensusTract2020 = row.num2020CensusTract, City = city };
+                    censusTracts[censusKey] = censusTract;
+                }
+
+                if (!electricities.TryGetValue(row.ElectricVehicleType, out var electricity))
+                {
+                    electricity = new Electricity
+                    {
+                        ElectricVehicleType = row.ElectricVehicleType,
+                        ElectricUtility = row.ElectricUtility,
+                        ElectricRange = row.ElectricRange,
+                        CAFV = row.CleanAlternativeFuelVehicleCAFVEligibility,
+                        LegislativeDistrict = row.LegislativeDistrict
+                    };
+                    electricities[row.ElectricVehicleType] = electricity;
+                }
+
+                if (!vehicles.ContainsKey(row.DOLVehicleID))
+                {
+                    var vehicle = new Vehicle
+                    {
+                        VIN = row.VIN1_10,
+                        Make = row.Make,
+                        Model = row.VehicleModel,
+                        ModelYear = row.ModelYear,
+                        BaseMSRP = row.BaseMSRP,
+                        DOLVehicleId = row.DOLVehicleID,
+                        Location = row.VehicleLocation,
+                        PostalCode = row.PostalCode,
+
+                        State = state,
+                        County = county,
+                        City = city,
+                        CensusTract = censusTract,
+                        Electricity = electricity
+                    };
+
+                    vehicles[row.DOLVehicleID] = vehicle;
+                }
             }
-            _vehicleDbContext.SaveChanges();
+            _vehicleDbContext.Vehicles.AddRange(vehicles.Values);
+            _vehicleDbContext.SaveChanges(); 
         }
     }
 }
+

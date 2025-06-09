@@ -10,15 +10,47 @@ namespace DataContext
     public class Queries
     {
         private readonly VehicleDbContext context;
-        
-        public List<Vehicle> GetVehicles()
+
+        public List<object> GetTop5VehicleModelsWithCities()
         {
-            var top5Cars = context.Vehicles
+            var result = context.Vehicles
+                .Where(v => v.Model != null && v.City != null)
+                .GroupBy(v => v.Model)
+                .Select(g => new
+                {
+                    Model = g.Key,
+                    TotalCount = g.Count(),
+                    TopCities = g.GroupBy(v => v.City.CityName)
+                                 .Select(cg => new
+                                 {
+                                     City = cg.Key,
+                                     Count = cg.Count()
+                                 })
+                                 .OrderByDescending(cg => cg.Count)
+                                 .ToList()
+                })
+                .OrderByDescending(x => x.TotalCount)
                 .Take(5)
-                .Where(x => x.Model != null)
-                .OrderDescending()
-                .ToList();                
-            return top5Cars;
+                .ToList<object>();
+
+            return result;
+        }
+        public List<object> GetVehiclesGroupedByMakeFilteredByElectricRange()
+        {
+            var result = context.Vehicles
+                .Where(v => v.Electricity != null && v.Electricity.ElectricRange > 0)
+                .GroupBy(v => v.Make)
+                .Select(g => new
+                {
+                    Make = g.Key,
+                    Count = g.Count(),
+                    AverageRange = g.Average(v => v.Electricity.ElectricRange),
+                    MaxRange = g.Max(v => v.Electricity.ElectricRange)
+                })
+                .OrderByDescending(g => g.MaxRange) // или g.AverageRange
+                .ToList<object>();
+
+            return result;
         }
     }
 }

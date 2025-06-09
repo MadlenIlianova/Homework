@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataContext.Migrations
 {
     [DbContext(typeof(VehicleDbContext))]
-    [Migration("20250606221058_initial2")]
-    partial class initial2
+    [Migration("20250609143750_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -33,8 +33,8 @@ namespace DataContext.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("CensusTract2020")
-                        .HasColumnType("int");
+                    b.Property<long?>("CensusTract2020")
+                        .HasColumnType("bigint");
 
                     b.Property<int>("CityId")
                         .HasColumnType("int");
@@ -132,7 +132,7 @@ namespace DataContext.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("ElectricRange")
+                    b.Property<int?>("ElectricRange")
                         .HasColumnType("int");
 
                     b.Property<string>("ElectricUtility")
@@ -146,7 +146,7 @@ namespace DataContext.Migrations
                     b.Property<bool>("IsDeletedAt")
                         .HasColumnType("bit");
 
-                    b.Property<int>("LegislativeDistrict")
+                    b.Property<int?>("LegislativeDistrict")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("UpdatedAt")
@@ -191,7 +191,16 @@ namespace DataContext.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("BaseMSRP")
+                    b.Property<int?>("BaseMSRP")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CensusTractId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CityId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CountyId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("CreatedAt")
@@ -206,8 +215,9 @@ namespace DataContext.Migrations
                     b.Property<bool>("IsDeletedAt")
                         .HasColumnType("bit");
 
-                    b.Property<double>("Location")
-                        .HasColumnType("float");
+                    b.Property<string>("Location")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Make")
                         .IsRequired()
@@ -217,10 +227,10 @@ namespace DataContext.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("ModelYear")
+                    b.Property<int?>("ModelYear")
                         .HasColumnType("int");
 
-                    b.Property<int>("PostalCode")
+                    b.Property<int?>("PostalCode")
                         .HasColumnType("int");
 
                     b.Property<int>("StateId")
@@ -234,6 +244,12 @@ namespace DataContext.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("CensusTractId");
+
+                    b.HasIndex("CityId");
+
+                    b.HasIndex("CountyId");
 
                     b.HasIndex("ElectricityId");
 
@@ -277,6 +293,24 @@ namespace DataContext.Migrations
 
             modelBuilder.Entity("VehicleModels.Models.Vehicle", b =>
                 {
+                    b.HasOne("VehicleModels.Models.CensusTract", "CensusTract")
+                        .WithMany("Vehicles")
+                        .HasForeignKey("CensusTractId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("VehicleModels.Models.City", "City")
+                        .WithMany("Vehicles")
+                        .HasForeignKey("CityId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("VehicleModels.Models.County", "County")
+                        .WithMany("Vehicles")
+                        .HasForeignKey("CountyId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("VehicleModels.Models.Electricity", "Electricity")
                         .WithMany("Vehicles")
                         .HasForeignKey("ElectricityId")
@@ -289,19 +323,34 @@ namespace DataContext.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
+                    b.Navigation("CensusTract");
+
+                    b.Navigation("City");
+
+                    b.Navigation("County");
+
                     b.Navigation("Electricity");
 
                     b.Navigation("State");
                 });
 
+            modelBuilder.Entity("VehicleModels.Models.CensusTract", b =>
+                {
+                    b.Navigation("Vehicles");
+                });
+
             modelBuilder.Entity("VehicleModels.Models.City", b =>
                 {
                     b.Navigation("CensusTracts");
+
+                    b.Navigation("Vehicles");
                 });
 
             modelBuilder.Entity("VehicleModels.Models.County", b =>
                 {
                     b.Navigation("Cities");
+
+                    b.Navigation("Vehicles");
                 });
 
             modelBuilder.Entity("VehicleModels.Models.Electricity", b =>

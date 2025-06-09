@@ -129,7 +129,7 @@ namespace DataContext.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("ElectricRange")
+                    b.Property<int?>("ElectricRange")
                         .HasColumnType("int");
 
                     b.Property<string>("ElectricUtility")
@@ -188,7 +188,7 @@ namespace DataContext.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("BaseMSRP")
+                    b.Property<int?>("BaseMSRP")
                         .HasColumnType("int");
 
                     b.Property<int>("CensusTractId")
@@ -224,7 +224,7 @@ namespace DataContext.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("ModelYear")
+                    b.Property<int?>("ModelYear")
                         .HasColumnType("int");
 
                     b.Property<int?>("PostalCode")

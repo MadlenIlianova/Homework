@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using VehicleModels.BaseModels;
 using VehicleModels.Models;
 
 namespace DataContext
@@ -47,6 +48,30 @@ namespace DataContext
                .OnDelete(DeleteBehavior.Restrict);
 
             base.OnModelCreating(modelBuilder);
+        }
+        public override int SaveChanges()
+        {
+            var entries = ChangeTracker.Entries<IBaseModel>();
+            var now = DateTime.UtcNow;
+
+            foreach (var entry in entries)
+            {
+                switch (entry.State)
+                {
+                    case EntityState.Added:
+                        entry.Entity.CreatedAt = now;
+                        break;
+                    case EntityState.Modified:
+                        entry.Entity.UpdatedAt = now; 
+                        break;
+                    case EntityState.Deleted:
+                        entry.State = EntityState.Modified;
+                        entry.Entity.DeletedAt = now;
+                        break;
+                }
+            }
+
+            return base.SaveChanges();
         }
     }
 }

@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\Homework\\ORM\\Movies2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5306C04D-2A18-45EC-A857-C007A099754E}|MovieInfrastructure\\MovieInfrastructure.csproj|c:\\users\\user\\documents\\homework\\orm\\movies2\\movieinfrastructure\\seed\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5306C04D-2A18-45EC-A857-C007A099754E}|MovieInfrastructure\\MovieInfrastructure.csproj|solutionrelative:movieinfrastructure\\seed\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5306C04D-2A18-45EC-A857-C007A099754E}|MovieInfrastructure\\MovieInfrastructure.csproj|c:\\users\\user\\documents\\homework\\orm\\movies2\\movieinfrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5306C04D-2A18-45EC-A857-C007A099754E}|MovieInfrastructure\\MovieInfrastructure.csproj|solutionrelative:movieinfrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5306C04D-2A18-45EC-A857-C007A099754E}|MovieInfrastructure\\MovieInfrastructure.csproj|c:\\users\\user\\documents\\homework\\orm\\movies2\\movieinfrastructure\\repositories\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5306C04D-2A18-45EC-A857-C007A099754E}|MovieInfrastructure\\MovieInfrastructure.csproj|solutionrelative:movieinfrastructure\\repositories\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,16 +39,8 @@
       "RelativeMoniker": "D:0:0:{5306C04D-2A18-45EC-A857-C007A099754E}|MovieInfrastructure\\MovieInfrastructure.csproj|solutionrelative:movieinfrastructure\\globalparameters\\globalparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5306C04D-2A18-45EC-A857-C007A099754E}|MovieInfrastructure\\MovieInfrastructure.csproj|c:\\users\\user\\documents\\homework\\orm\\movies2\\movieinfrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5306C04D-2A18-45EC-A857-C007A099754E}|MovieInfrastructure\\MovieInfrastructure.csproj|solutionrelative:movieinfrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{14670FFC-2E4B-40CF-BCB0-52191042C478}|Movies2\\Movies2.csproj|c:\\users\\user\\documents\\homework\\orm\\movies2\\movies2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14670FFC-2E4B-40CF-BCB0-52191042C478}|Movies2\\Movies2.csproj|solutionrelative:movies2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5306C04D-2A18-45EC-A857-C007A099754E}|MovieInfrastructure\\MovieInfrastructure.csproj|c:\\users\\user\\documents\\homework\\orm\\movies2\\movieinfrastructure\\seed\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5306C04D-2A18-45EC-A857-C007A099754E}|MovieInfrastructure\\MovieInfrastructure.csproj|solutionrelative:movieinfrastructure\\seed\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5306C04D-2A18-45EC-A857-C007A099754E}|MovieInfrastructure\\MovieInfrastructure.csproj|c:\\users\\user\\documents\\homework\\orm\\movies2\\movieinfrastructure\\convert\\releaseyearconvert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -90,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -107,19 +107,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "GlobalParameter.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Movies2\\MovieInfrastructure\\GlobalParameters\\GlobalParameter.cs",
-              "RelativeDocumentMoniker": "MovieInfrastructure\\GlobalParameters\\GlobalParameter.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Movies2\\MovieInfrastructure\\GlobalParameters\\GlobalParameter.cs",
-              "RelativeToolTip": "MovieInfrastructure\\GlobalParameters\\GlobalParameter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T16:38:27.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "CsvFileReader.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Movies2\\MovieInfrastructure\\CsvFileReader.cs",
               "RelativeDocumentMoniker": "MovieInfrastructure\\CsvFileReader.cs",
@@ -127,12 +114,11 @@
               "RelativeToolTip": "MovieInfrastructure\\CsvFileReader.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T16:44:20.962Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T16:44:20.962Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ICsvFileReader.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Movies2\\MovieInfrastructure\\ICsvFileReader.cs",
               "RelativeDocumentMoniker": "MovieInfrastructure\\ICsvFileReader.cs",
@@ -140,12 +126,11 @@
               "RelativeToolTip": "MovieInfrastructure\\ICsvFileReader.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T18:19:18.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T18:19:18.914Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Model.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Movies2\\MovieInfrastructure\\Model.cs",
               "RelativeDocumentMoniker": "MovieInfrastructure\\Model.cs",
@@ -153,12 +138,11 @@
               "RelativeToolTip": "MovieInfrastructure\\Model.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T16:50:38.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T16:50:38.473Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ModelClassMap.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Movies2\\MovieInfrastructure\\ModelClassMap.cs",
               "RelativeDocumentMoniker": "MovieInfrastructure\\ModelClassMap.cs",
@@ -166,12 +150,11 @@
               "RelativeToolTip": "MovieInfrastructure\\ModelClassMap.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAABkAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T16:51:23.506Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T16:51:23.506Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Movies2\\MovieInfrastructure\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "MovieInfrastructure\\Data\\ApplicationDbContext.cs",
@@ -184,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MovieRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Movies2\\MovieInfrastructure\\Repositories\\MovieRepository.cs",
               "RelativeDocumentMoniker": "MovieInfrastructure\\Repositories\\MovieRepository.cs",
@@ -197,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "MetascoreConvert.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Movies2\\MovieInfrastructure\\Convert\\MetascoreConvert.cs",
               "RelativeDocumentMoniker": "MovieInfrastructure\\Convert\\MetascoreConvert.cs",
@@ -205,12 +188,36 @@
               "RelativeToolTip": "MovieInfrastructure\\Convert\\MetascoreConvert.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAAABYAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T19:11:55.497Z",
+              "WhenOpened": "2025-05-20T19:11:55.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Movies2\\MovieInfrastructure\\Seed\\DataSeeder.cs",
+              "RelativeDocumentMoniker": "MovieInfrastructure\\Seed\\DataSeeder.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Movies2\\MovieInfrastructure\\Seed\\DataSeeder.cs",
+              "RelativeToolTip": "MovieInfrastructure\\Seed\\DataSeeder.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T06:25:27.506Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "GlobalParameter.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Movies2\\MovieInfrastructure\\GlobalParameters\\GlobalParameter.cs",
+              "RelativeDocumentMoniker": "MovieInfrastructure\\GlobalParameters\\GlobalParameter.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Movies2\\MovieInfrastructure\\GlobalParameters\\GlobalParameter.cs",
+              "RelativeToolTip": "MovieInfrastructure\\GlobalParameters\\GlobalParameter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T16:38:27.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Movies2\\Movies2\\Program.cs",
               "RelativeDocumentMoniker": "Movies2\\Program.cs",
@@ -219,18 +226,6 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T14:36:39.724Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DataSeeder.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Homework\\ORM\\Movies2\\MovieInfrastructure\\Seed\\DataSeeder.cs",
-              "RelativeDocumentMoniker": "MovieInfrastructure\\Seed\\DataSeeder.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Homework\\ORM\\Movies2\\MovieInfrastructure\\Seed\\DataSeeder.cs",
-              "RelativeToolTip": "MovieInfrastructure\\Seed\\DataSeeder.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAYwD0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T06:25:27.506Z"
             },
             {
               "$type": "Document",
